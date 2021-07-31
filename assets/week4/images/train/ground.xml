@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ground.png">
+	<!-- Created with Adobe Animate version 19.2.0.405 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Ground Moving0000" x="10" y="10" width="1970" height="1335"/>
+	<SubTexture name="Ground Moving0001" x="1990" y="10" width="1970" height="1335"/>
+	<SubTexture name="Ground Moving0002" x="3970" y="10" width="1970" height="1335"/>
+	<SubTexture name="Ground Moving0003" x="5950" y="10" width="1970" height="1335"/>
+	<SubTexture name="Ground Moving0004" x="10" y="1355" width="1970" height="1335"/>
+	<SubTexture name="Ground Moving0005" x="1990" y="1355" width="1970" height="1335"/>
+	<SubTexture name="Ground Moving0006" x="3970" y="1355" width="1970" height="1335"/>
+	<SubTexture name="Ground Moving0007" x="5950" y="1355" width="1970" height="1335"/>
+	<SubTexture name="Ground Moving0008" x="10" y="2700" width="1970" height="1335"/>
+	<SubTexture name="Ground Moving0009" x="1990" y="2700" width="1970" height="1335"/>
+	<SubTexture name="Ground Moving0010" x="3970" y="2700" width="1970" height="1335"/>
+	<SubTexture name="Ground Moving0011" x="5950" y="2700" width="1970" height="1335"/>
+	<SubTexture name="Ground Moving0012" x="10" y="4045" width="1970" height="1335"/>
+	<SubTexture name="Ground Moving0013" x="1990" y="4045" width="1970" height="1335"/>
+	<SubTexture name="Ground Moving0014" x="3970" y="4045" width="1970" height="1335"/>
+	<SubTexture name="Ground Moving0015" x="5950" y="4045" width="1970" height="1335"/>
+	<SubTexture name="Ground Moving0016" x="10" y="5390" width="1970" height="1335"/>
+	<SubTexture name="Ground Moving0017" x="1990" y="5390" width="1970" height="1335"/>
+	<SubTexture name="Ground Moving0018" x="3970" y="5390" width="1970" height="1335"/>
+	<SubTexture name="Ground Moving0019" x="5950" y="5390" width="1970" height="1335"/>
+</TextureAtlas>

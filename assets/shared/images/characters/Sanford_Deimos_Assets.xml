@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Sanford_Deimos_Assets.png">
+	<!-- Created with Adobe Animate version 19.2.0.405 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Sanford Deimos DOWN NOTE0000" x="10" y="10" width="529" height="624" frameX="0" frameY="-18" frameWidth="542" frameHeight="642"/>
+	<SubTexture name="Sanford Deimos DOWN NOTE0001" x="10" y="10" width="529" height="624" frameX="0" frameY="-18" frameWidth="542" frameHeight="642"/>
+	<SubTexture name="Sanford Deimos DOWN NOTE0002" x="549" y="10" width="539" height="642" frameX="-3" frameY="0" frameWidth="542" frameHeight="642"/>
+	<SubTexture name="Sanford Deimos DOWN NOTE0003" x="549" y="10" width="539" height="642" frameX="-3" frameY="0" frameWidth="542" frameHeight="642"/>
+	<SubTexture name="Sanford Deimos DOWN NOTE0004" x="549" y="10" width="539" height="642" frameX="-3" frameY="0" frameWidth="542" frameHeight="642"/>
+	<SubTexture name="Sanford Deimos DOWN NOTE0005" x="549" y="10" width="539" height="642" frameX="-3" frameY="0" frameWidth="542" frameHeight="642"/>
+	<SubTexture name="Sanford Deimos DOWN NOTE0006" x="549" y="10" width="539" height="642" frameX="-3" frameY="0" frameWidth="542" frameHeight="642"/>
+	<SubTexture name="Sanford Deimos DOWN NOTE0007" x="549" y="10" width="539" height="642" frameX="-3" frameY="0" frameWidth="542" frameHeight="642"/>
+	<SubTexture name="Sanford Deimos DOWN NOTE0008" x="549" y="10" width="539" height="642" frameX="-3" frameY="0" frameWidth="542" frameHeight="642"/>
+	<SubTexture name="Sanford Deimos DOWN NOTE0009" x="549" y="10" width="539" height="642" frameX="-3" frameY="0" frameWidth="542" frameHeight="642"/>
+	<SubTexture name="Sanford Deimos DOWN NOTE0010" x="549" y="10" width="539" height="642" frameX="-3" frameY="0" frameWidth="542" frameHeight="642"/>
+	<SubTexture name="Sanford Deimos DOWN NOTE0011" x="549" y="10" width="539" height="642" frameX="-3" frameY="0" frameWidth="542" frameHeight="642"/>
+	<SubTexture name="Sanford Deimos DOWN NOTE0012" x="549" y="10" width="539" height="642" frameX="-3" frameY="0" frameWidth="542" frameHeight="642"/>
+	<SubTexture name="Sanford Deimos DOWN NOTE0013" x="549" y="10" width="539" height="642" frameX="-3" frameY="0" frameWidth="542" frameHeight="642"/>
+	<SubTexture name="Sanford Deimos DOWN NOTE0014" x="549" y="10" width="539" height="642" frameX="-3" frameY="0" frameWidth="542" frameHeight="642"/>
+	<SubTexture name="Sanford Deimos Idle Dance0000" x="1098" y="10" width="580" height="675" frameX="0" frameY="-33" frameWidth="580" frameHeight="708"/>
+	<SubTexture name="Sanford Deimos Idle Dance0001" x="1098" y="10" width="580" height="675" frameX="0" frameY="-33" frameWidth="580" frameHeight="708"/>
+	<SubTexture name="Sanford Deimos Idle Dance0002" x="1688" y="10" width="567" height="680" frameX="-2" frameY="-28" frameWidth="580" frameHeight="708"/>
+	<SubTexture name="Sanford Deimos Idle Dance0003" x="1688" y="10" width="567" height="680" frameX="-2" frameY="-28" frameWidth="580" frameHeight="708"/>
+	<SubTexture name="Sanford Deimos Idle Dance0004" x="2265" y="10" width="561" height="690" frameX="-4" frameY="-18" frameWidth="580" frameHeight="708"/>
+	<SubTexture name="Sanford Deimos Idle Dance0005" x="2265" y="10" width="561" height="690" frameX="-4" frameY="-18" frameWidth="580" frameHeight="708"/>
+	<SubTexture name="Sanford Deimos Idle Dance0006" x="2836" y="10" width="548" height="695" frameX="-6" frameY="-13" frameWidth="580" frameHeight="708"/>
+	<SubTexture name="Sanford Deimos Idle Dance0007" x="2836" y="10" width="548" height="695" frameX="-6" frameY="-13" frameWidth="580" frameHeight="708"/>
+	<SubTexture name="Sanford Deimos Idle Dance0008" x="3394" y="10" width="548" height="708" frameX="-5" frameY="0" frameWidth="580" frameHeight="708"/>
+	<SubTexture name="Sanford Deimos Idle Dance0009" x="3394" y="10" width="548" height="708" frameX="-5" frameY="0" frameWidth="580" frameHeight="708"/>
+	<SubTexture name="Sanford Deimos Idle Dance0010" x="3394" y="10" width="548" height="708" frameX="-5" frameY="0" frameWidth="580" frameHeight="708"/>
+	<SubTexture name="Sanford Deimos Idle Dance0011" x="3394" y="10" width="548" height="708" frameX="-5" frameY="0" frameWidth="580" frameHeight="708"/>
+	<SubTexture name="Sanford Deimos Idle Dance0012" x="3394" y="10" width="548" height="708" frameX="-5" frameY="0" frameWidth="580" frameHeight="708"/>
+	<SubTexture name="Sanford Deimos Idle Dance0013" x="3394" y="10" width="548" height="708" frameX="-5" frameY="0" frameWidth="580" frameHeight="708"/>
+	<SubTexture name="Sanford Deimos LEFT NOTE NOTE0000" x="10" y="728" width="575" height="703" frameX="-7" frameY="-18" frameWidth="586" frameHeight="721"/>
+	<SubTexture name="Sanford Deimos LEFT NOTE NOTE0001" x="10" y="728" width="575" height="703" frameX="-7" frameY="-18" frameWidth="586" frameHeight="721"/>
+	<SubTexture name="Sanford Deimos LEFT NOTE NOTE0002" x="595" y="728" width="586" height="721"/>
+	<SubTexture name="Sanford Deimos LEFT NOTE NOTE0003" x="595" y="728" width="586" height="721"/>
+	<SubTexture name="Sanford Deimos LEFT NOTE NOTE0004" x="595" y="728" width="586" height="721"/>
+	<SubTexture name="Sanford Deimos LEFT NOTE NOTE0005" x="595" y="728" width="586" height="721"/>
+	<SubTexture name="Sanford Deimos LEFT NOTE NOTE0006" x="595" y="728" width="586" height="721"/>
+	<SubTexture name="Sanford Deimos LEFT NOTE NOTE0007" x="595" y="728" width="586" height="721"/>
+	<SubTexture name="Sanford Deimos LEFT NOTE NOTE0008" x="595" y="728" width="586" height="721"/>
+	<SubTexture name="Sanford Deimos LEFT NOTE NOTE0009" x="595" y="728" width="586" height="721"/>
+	<SubTexture name="Sanford Deimos LEFT NOTE NOTE0010" x="595" y="728" width="586" height="721"/>
+	<SubTexture name="Sanford Deimos LEFT NOTE NOTE0011" x="595" y="728" width="586" height="721"/>
+	<SubTexture name="Sanford Deimos LEFT NOTE NOTE0012" x="595" y="728" width="586" height="721"/>
+	<SubTexture name="Sanford Deimos LEFT NOTE NOTE0013" x="595" y="728" width="586" height="721"/>
+	<SubTexture name="Sanford Deimos LEFT NOTE NOTE0014" x="595" y="728" width="586" height="721"/>
+	<SubTexture name="Sanford Deimos RIGHT NOTE0000" x="1191" y="728" width="665" height="751" frameX="0" frameY="0" frameWidth="665" frameHeight="759"/>
+	<SubTexture name="Sanford Deimos RIGHT NOTE0001" x="1191" y="728" width="665" height="751" frameX="0" frameY="0" frameWidth="665" frameHeight="759"/>
+	<SubTexture name="Sanford Deimos RIGHT NOTE0002" x="1866" y="728" width="641" height="759" frameX="-14" frameY="0" frameWidth="665" frameHeight="759"/>
+	<SubTexture name="Sanford Deimos RIGHT NOTE0003" x="1866" y="728" width="641" height="759" frameX="-14" frameY="0" frameWidth="665" frameHeight="759"/>
+	<SubTexture name="Sanford Deimos RIGHT NOTE0004" x="1866" y="728" width="641" height="759" frameX="-14" frameY="0" frameWidth="665" frameHeight="759"/>
+	<SubTexture name="Sanford Deimos RIGHT NOTE0005" x="1866" y="728" width="641" height="759" frameX="-14" frameY="0" frameWidth="665" frameHeight="759"/>
+	<SubTexture name="Sanford Deimos RIGHT NOTE0006" x="1866" y="728" width="641" height="759" frameX="-14" frameY="0" frameWidth="665" frameHeight="759"/>
+	<SubTexture name="Sanford Deimos RIGHT NOTE0007" x="1866" y="728" width="641" height="759" frameX="-14" frameY="0" frameWidth="665" frameHeight="759"/>
+	<SubTexture name="Sanford Deimos RIGHT NOTE0008" x="1866" y="728" width="641" height="759" frameX="-14" frameY="0" frameWidth="665" frameHeight="759"/>
+	<SubTexture name="Sanford Deimos RIGHT NOTE0009" x="1866" y="728" width="641" height="759" frameX="-14" frameY="0" frameWidth="665" frameHeight="759"/>
+	<SubTexture name="Sanford Deimos RIGHT NOTE0010" x="1866" y="728" width="641" height="759" frameX="-14" frameY="0" frameWidth="665" frameHeight="759"/>
+	<SubTexture name="Sanford Deimos RIGHT NOTE0011" x="1866" y="728" width="641" height="759" frameX="-14" frameY="0" frameWidth="665" frameHeight="759"/>
+	<SubTexture name="Sanford Deimos RIGHT NOTE0012" x="1866" y="728" width="641" height="759" frameX="-14" frameY="0" frameWidth="665" frameHeight="759"/>
+	<SubTexture name="Sanford Deimos RIGHT NOTE0013" x="1866" y="728" width="641" height="759" frameX="-14" frameY="0" frameWidth="665" frameHeight="759"/>
+	<SubTexture name="Sanford Deimos RIGHT NOTE0014" x="1866" y="728" width="641" height="759" frameX="-14" frameY="0" frameWidth="665" frameHeight="759"/>
+	<SubTexture name="Sanford Deimos UP NOTE0000" x="2517" y="728" width="620" height="747"/>
+	<SubTexture name="Sanford Deimos UP NOTE0001" x="2517" y="728" width="620" height="747"/>
+	<SubTexture name="Sanford Deimos UP NOTE0002" x="3147" y="728" width="590" height="731" frameX="-16" frameY="-16" frameWidth="620" frameHeight="747"/>
+	<SubTexture name="Sanford Deimos UP NOTE0003" x="3147" y="728" width="590" height="731" frameX="-16" frameY="-16" frameWidth="620" frameHeight="747"/>
+	<SubTexture name="Sanford Deimos UP NOTE0004" x="3147" y="728" width="590" height="731" frameX="-16" frameY="-16" frameWidth="620" frameHeight="747"/>
+	<SubTexture name="Sanford Deimos UP NOTE0005" x="3147" y="728" width="590" height="731" frameX="-16" frameY="-16" frameWidth="620" frameHeight="747"/>
+	<SubTexture name="Sanford Deimos UP NOTE0006" x="3147" y="728" width="590" height="731" frameX="-16" frameY="-16" frameWidth="620" frameHeight="747"/>
+	<SubTexture name="Sanford Deimos UP NOTE0007" x="3147" y="728" width="590" height="731" frameX="-16" frameY="-16" frameWidth="620" frameHeight="747"/>
+	<SubTexture name="Sanford Deimos UP NOTE0008" x="3147" y="728" width="590" height="731" frameX="-16" frameY="-16" frameWidth="620" frameHeight="747"/>
+	<SubTexture name="Sanford Deimos UP NOTE0009" x="3147" y="728" width="590" height="731" frameX="-16" frameY="-16" frameWidth="620" frameHeight="747"/>
+	<SubTexture name="Sanford Deimos UP NOTE0010" x="3147" y="728" width="590" height="731" frameX="-16" frameY="-16" frameWidth="620" frameHeight="747"/>
+	<SubTexture name="Sanford Deimos UP NOTE0011" x="3147" y="728" width="590" height="731" frameX="-16" frameY="-16" frameWidth="620" frameHeight="747"/>
+	<SubTexture name="Sanford Deimos UP NOTE0012" x="3147" y="728" width="590" height="731" frameX="-16" frameY="-16" frameWidth="620" frameHeight="747"/>
+	<SubTexture name="Sanford Deimos UP NOTE0013" x="3147" y="728" width="590" height="731" frameX="-16" frameY="-16" frameWidth="620" frameHeight="747"/>
+	<SubTexture name="Sanford Deimos UP NOTE0014" x="3147" y="728" width="590" height="731" frameX="-16" frameY="-16" frameWidth="620" frameHeight="747"/>
+</TextureAtlas>

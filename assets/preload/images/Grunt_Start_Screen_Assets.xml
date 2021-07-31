@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Grunt_Start_Screen_Assets.png">
+	<!-- Created with Adobe Animate version 19.2.0.405 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Grunt Dance0000" x="10" y="10" width="566" height="504" frameX="-5" frameY="-9" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0001" x="586" y="10" width="571" height="504" frameX="0" frameY="-9" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0002" x="1167" y="10" width="572" height="513" frameX="0" frameY="0" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0003" x="1749" y="10" width="567" height="513" frameX="-5" frameY="0" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0004" x="2326" y="10" width="564" height="496" frameX="-5" frameY="-17" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0005" x="2326" y="10" width="564" height="496" frameX="-5" frameY="-17" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0006" x="2900" y="10" width="564" height="496" frameX="-5" frameY="-17" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0007" x="3474" y="10" width="574" height="501" frameX="-5" frameY="-12" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0008" x="3474" y="10" width="574" height="501" frameX="-5" frameY="-12" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0009" x="3474" y="10" width="574" height="501" frameX="-5" frameY="-12" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0010" x="10" y="533" width="573" height="502" frameX="-5" frameY="-11" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0011" x="10" y="533" width="573" height="502" frameX="-5" frameY="-11" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0012" x="10" y="533" width="573" height="502" frameX="-5" frameY="-11" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0013" x="593" y="533" width="573" height="505" frameX="-5" frameY="-8" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0014" x="593" y="533" width="573" height="505" frameX="-5" frameY="-8" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0015" x="1176" y="533" width="605" height="502" frameX="-5" frameY="-11" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0016" x="1791" y="533" width="610" height="502" frameX="0" frameY="-11" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0017" x="2411" y="533" width="622" height="500" frameX="0" frameY="-13" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0018" x="3043" y="533" width="617" height="500" frameX="-5" frameY="-13" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0019" x="10" y="1048" width="615" height="503" frameX="-5" frameY="-10" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0020" x="10" y="1048" width="615" height="503" frameX="-5" frameY="-10" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0021" x="635" y="1048" width="602" height="505" frameX="-5" frameY="-8" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0022" x="593" y="533" width="573" height="505" frameX="-5" frameY="-8" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0023" x="593" y="533" width="573" height="505" frameX="-5" frameY="-8" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0024" x="593" y="533" width="573" height="505" frameX="-5" frameY="-8" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0025" x="10" y="533" width="573" height="502" frameX="-5" frameY="-11" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0026" x="10" y="533" width="573" height="502" frameX="-5" frameY="-11" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0027" x="10" y="533" width="573" height="502" frameX="-5" frameY="-11" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0028" x="3474" y="10" width="574" height="501" frameX="-5" frameY="-12" frameWidth="622" frameHeight="513"/>
+	<SubTexture name="Grunt Dance0029" x="3474" y="10" width="574" height="501" frameX="-5" frameY="-12" frameWidth="622" frameHeight="513"/>
+</TextureAtlas>

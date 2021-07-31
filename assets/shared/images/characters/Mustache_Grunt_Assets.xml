@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Mustache_Grunt_Assets.png">
+	<!-- Created with Adobe Animate version 19.2.0.405 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Mustache Grunt DOWN NOTE0000" x="10" y="10" width="582" height="711" frameX="0" frameY="-16" frameWidth="620" frameHeight="727"/>
+	<SubTexture name="Mustache Grunt DOWN NOTE0001" x="10" y="10" width="582" height="711" frameX="0" frameY="-16" frameWidth="620" frameHeight="727"/>
+	<SubTexture name="Mustache Grunt DOWN NOTE0002" x="602" y="10" width="601" height="727" frameX="-19" frameY="0" frameWidth="620" frameHeight="727"/>
+	<SubTexture name="Mustache Grunt DOWN NOTE0003" x="602" y="10" width="601" height="727" frameX="-19" frameY="0" frameWidth="620" frameHeight="727"/>
+	<SubTexture name="Mustache Grunt DOWN NOTE0004" x="602" y="10" width="601" height="727" frameX="-19" frameY="0" frameWidth="620" frameHeight="727"/>
+	<SubTexture name="Mustache Grunt DOWN NOTE0005" x="602" y="10" width="601" height="727" frameX="-19" frameY="0" frameWidth="620" frameHeight="727"/>
+	<SubTexture name="Mustache Grunt DOWN NOTE0006" x="602" y="10" width="601" height="727" frameX="-19" frameY="0" frameWidth="620" frameHeight="727"/>
+	<SubTexture name="Mustache Grunt DOWN NOTE0007" x="602" y="10" width="601" height="727" frameX="-19" frameY="0" frameWidth="620" frameHeight="727"/>
+	<SubTexture name="Mustache Grunt DOWN NOTE0008" x="602" y="10" width="601" height="727" frameX="-19" frameY="0" frameWidth="620" frameHeight="727"/>
+	<SubTexture name="Mustache Grunt DOWN NOTE0009" x="602" y="10" width="601" height="727" frameX="-19" frameY="0" frameWidth="620" frameHeight="727"/>
+	<SubTexture name="Mustache Grunt DOWN NOTE0010" x="602" y="10" width="601" height="727" frameX="-19" frameY="0" frameWidth="620" frameHeight="727"/>
+	<SubTexture name="Mustache Grunt DOWN NOTE0011" x="602" y="10" width="601" height="727" frameX="-19" frameY="0" frameWidth="620" frameHeight="727"/>
+	<SubTexture name="Mustache Grunt DOWN NOTE0012" x="602" y="10" width="601" height="727" frameX="-19" frameY="0" frameWidth="620" frameHeight="727"/>
+	<SubTexture name="Mustache Grunt DOWN NOTE0013" x="602" y="10" width="601" height="727" frameX="-19" frameY="0" frameWidth="620" frameHeight="727"/>
+	<SubTexture name="Mustache Grunt DOWN NOTE0014" x="602" y="10" width="601" height="727" frameX="-19" frameY="0" frameWidth="620" frameHeight="727"/>
+	<SubTexture name="Mustache Grunt Idle Dance0000" x="1213" y="10" width="759" height="681" frameX="-1" frameY="-38" frameWidth="760" frameHeight="719"/>
+	<SubTexture name="Mustache Grunt Idle Dance0001" x="1213" y="10" width="759" height="681" frameX="-1" frameY="-38" frameWidth="760" frameHeight="719"/>
+	<SubTexture name="Mustache Grunt Idle Dance0002" x="1982" y="10" width="755" height="696" frameX="0" frameY="-23" frameWidth="760" frameHeight="719"/>
+	<SubTexture name="Mustache Grunt Idle Dance0003" x="1982" y="10" width="755" height="696" frameX="0" frameY="-23" frameWidth="760" frameHeight="719"/>
+	<SubTexture name="Mustache Grunt Idle Dance0004" x="2747" y="10" width="742" height="701" frameX="-3" frameY="-18" frameWidth="760" frameHeight="719"/>
+	<SubTexture name="Mustache Grunt Idle Dance0005" x="2747" y="10" width="742" height="701" frameX="-3" frameY="-18" frameWidth="760" frameHeight="719"/>
+	<SubTexture name="Mustache Grunt Idle Dance0006" x="10" y="747" width="740" height="710" frameX="-3" frameY="-9" frameWidth="760" frameHeight="719"/>
+	<SubTexture name="Mustache Grunt Idle Dance0007" x="10" y="747" width="740" height="710" frameX="-3" frameY="-9" frameWidth="760" frameHeight="719"/>
+	<SubTexture name="Mustache Grunt Idle Dance0008" x="760" y="747" width="740" height="719" frameX="-3" frameY="0" frameWidth="760" frameHeight="719"/>
+	<SubTexture name="Mustache Grunt Idle Dance0009" x="760" y="747" width="740" height="719" frameX="-3" frameY="0" frameWidth="760" frameHeight="719"/>
+	<SubTexture name="Mustache Grunt Idle Dance0010" x="760" y="747" width="740" height="719" frameX="-3" frameY="0" frameWidth="760" frameHeight="719"/>
+	<SubTexture name="Mustache Grunt Idle Dance0011" x="760" y="747" width="740" height="719" frameX="-3" frameY="0" frameWidth="760" frameHeight="719"/>
+	<SubTexture name="Mustache Grunt Idle Dance0012" x="760" y="747" width="740" height="719" frameX="-3" frameY="0" frameWidth="760" frameHeight="719"/>
+	<SubTexture name="Mustache Grunt Idle Dance0013" x="760" y="747" width="740" height="719" frameX="-3" frameY="0" frameWidth="760" frameHeight="719"/>
+	<SubTexture name="Mustache Grunt LEFT NOTE NOTE0000" x="1510" y="747" width="667" height="788"/>
+	<SubTexture name="Mustache Grunt LEFT NOTE NOTE0001" x="1510" y="747" width="667" height="788"/>
+	<SubTexture name="Mustache Grunt LEFT NOTE NOTE0002" x="2187" y="747" width="587" height="772" frameX="-12" frameY="-16" frameWidth="667" frameHeight="788"/>
+	<SubTexture name="Mustache Grunt LEFT NOTE NOTE0003" x="2187" y="747" width="587" height="772" frameX="-12" frameY="-16" frameWidth="667" frameHeight="788"/>
+	<SubTexture name="Mustache Grunt LEFT NOTE NOTE0004" x="2187" y="747" width="587" height="772" frameX="-12" frameY="-16" frameWidth="667" frameHeight="788"/>
+	<SubTexture name="Mustache Grunt LEFT NOTE NOTE0005" x="2187" y="747" width="587" height="772" frameX="-12" frameY="-16" frameWidth="667" frameHeight="788"/>
+	<SubTexture name="Mustache Grunt LEFT NOTE NOTE0006" x="2187" y="747" width="587" height="772" frameX="-12" frameY="-16" frameWidth="667" frameHeight="788"/>
+	<SubTexture name="Mustache Grunt LEFT NOTE NOTE0007" x="2187" y="747" width="587" height="772" frameX="-12" frameY="-16" frameWidth="667" frameHeight="788"/>
+	<SubTexture name="Mustache Grunt LEFT NOTE NOTE0008" x="2187" y="747" width="587" height="772" frameX="-12" frameY="-16" frameWidth="667" frameHeight="788"/>
+	<SubTexture name="Mustache Grunt LEFT NOTE NOTE0009" x="2187" y="747" width="587" height="772" frameX="-12" frameY="-16" frameWidth="667" frameHeight="788"/>
+	<SubTexture name="Mustache Grunt LEFT NOTE NOTE0010" x="2187" y="747" width="587" height="772" frameX="-12" frameY="-16" frameWidth="667" frameHeight="788"/>
+	<SubTexture name="Mustache Grunt LEFT NOTE NOTE0011" x="2187" y="747" width="587" height="772" frameX="-12" frameY="-16" frameWidth="667" frameHeight="788"/>
+	<SubTexture name="Mustache Grunt LEFT NOTE NOTE0012" x="2187" y="747" width="587" height="772" frameX="-12" frameY="-16" frameWidth="667" frameHeight="788"/>
+	<SubTexture name="Mustache Grunt LEFT NOTE NOTE0013" x="2187" y="747" width="587" height="772" frameX="-12" frameY="-16" frameWidth="667" frameHeight="788"/>
+	<SubTexture name="Mustache Grunt LEFT NOTE NOTE0014" x="2187" y="747" width="587" height="772" frameX="-12" frameY="-16" frameWidth="667" frameHeight="788"/>
+	<SubTexture name="Mustache Grunt RIGHT NOTE0000" x="2784" y="747" width="702" height="692" frameX="-1" frameY="0" frameWidth="717" frameHeight="692"/>
+	<SubTexture name="Mustache Grunt RIGHT NOTE0001" x="2784" y="747" width="702" height="692" frameX="-1" frameY="0" frameWidth="717" frameHeight="692"/>
+	<SubTexture name="Mustache Grunt RIGHT NOTE0002" x="10" y="1545" width="717" height="688" frameX="0" frameY="-4" frameWidth="717" frameHeight="692"/>
+	<SubTexture name="Mustache Grunt RIGHT NOTE0003" x="10" y="1545" width="717" height="688" frameX="0" frameY="-4" frameWidth="717" frameHeight="692"/>
+	<SubTexture name="Mustache Grunt RIGHT NOTE0004" x="10" y="1545" width="717" height="688" frameX="0" frameY="-4" frameWidth="717" frameHeight="692"/>
+	<SubTexture name="Mustache Grunt RIGHT NOTE0005" x="10" y="1545" width="717" height="688" frameX="0" frameY="-4" frameWidth="717" frameHeight="692"/>
+	<SubTexture name="Mustache Grunt RIGHT NOTE0006" x="10" y="1545" width="717" height="688" frameX="0" frameY="-4" frameWidth="717" frameHeight="692"/>
+	<SubTexture name="Mustache Grunt RIGHT NOTE0007" x="10" y="1545" width="717" height="688" frameX="0" frameY="-4" frameWidth="717" frameHeight="692"/>
+	<SubTexture name="Mustache Grunt RIGHT NOTE0008" x="10" y="1545" width="717" height="688" frameX="0" frameY="-4" frameWidth="717" frameHeight="692"/>
+	<SubTexture name="Mustache Grunt RIGHT NOTE0009" x="10" y="1545" width="717" height="688" frameX="0" frameY="-4" frameWidth="717" frameHeight="692"/>
+	<SubTexture name="Mustache Grunt RIGHT NOTE0010" x="10" y="1545" width="717" height="688" frameX="0" frameY="-4" frameWidth="717" frameHeight="692"/>
+	<SubTexture name="Mustache Grunt RIGHT NOTE0011" x="10" y="1545" width="717" height="688" frameX="0" frameY="-4" frameWidth="717" frameHeight="692"/>
+	<SubTexture name="Mustache Grunt RIGHT NOTE0012" x="10" y="1545" width="717" height="688" frameX="0" frameY="-4" frameWidth="717" frameHeight="692"/>
+	<SubTexture name="Mustache Grunt RIGHT NOTE0013" x="10" y="1545" width="717" height="688" frameX="0" frameY="-4" frameWidth="717" frameHeight="692"/>
+	<SubTexture name="Mustache Grunt RIGHT NOTE0014" x="10" y="1545" width="717" height="688" frameX="0" frameY="-4" frameWidth="717" frameHeight="692"/>
+	<SubTexture name="Mustache Grunt UP NOTE0000" x="737" y="1545" width="620" height="790" frameX="-9" frameY="0" frameWidth="664" frameHeight="790"/>
+	<SubTexture name="Mustache Grunt UP NOTE0001" x="737" y="1545" width="620" height="790" frameX="-9" frameY="0" frameWidth="664" frameHeight="790"/>
+	<SubTexture name="Mustache Grunt UP NOTE0002" x="1367" y="1545" width="664" height="776" frameX="0" frameY="-14" frameWidth="664" frameHeight="790"/>
+	<SubTexture name="Mustache Grunt UP NOTE0003" x="1367" y="1545" width="664" height="776" frameX="0" frameY="-14" frameWidth="664" frameHeight="790"/>
+	<SubTexture name="Mustache Grunt UP NOTE0004" x="1367" y="1545" width="664" height="776" frameX="0" frameY="-14" frameWidth="664" frameHeight="790"/>
+	<SubTexture name="Mustache Grunt UP NOTE0005" x="1367" y="1545" width="664" height="776" frameX="0" frameY="-14" frameWidth="664" frameHeight="790"/>
+	<SubTexture name="Mustache Grunt UP NOTE0006" x="1367" y="1545" width="664" height="776" frameX="0" frameY="-14" frameWidth="664" frameHeight="790"/>
+	<SubTexture name="Mustache Grunt UP NOTE0007" x="1367" y="1545" width="664" height="776" frameX="0" frameY="-14" frameWidth="664" frameHeight="790"/>
+	<SubTexture name="Mustache Grunt UP NOTE0008" x="1367" y="1545" width="664" height="776" frameX="0" frameY="-14" frameWidth="664" frameHeight="790"/>
+	<SubTexture name="Mustache Grunt UP NOTE0009" x="1367" y="1545" width="664" height="776" frameX="0" frameY="-14" frameWidth="664" frameHeight="790"/>
+	<SubTexture name="Mustache Grunt UP NOTE0010" x="1367" y="1545" width="664" height="776" frameX="0" frameY="-14" frameWidth="664" frameHeight="790"/>
+	<SubTexture name="Mustache Grunt UP NOTE0011" x="1367" y="1545" width="664" height="776" frameX="0" frameY="-14" frameWidth="664" frameHeight="790"/>
+	<SubTexture name="Mustache Grunt UP NOTE0012" x="1367" y="1545" width="664" height="776" frameX="0" frameY="-14" frameWidth="664" frameHeight="790"/>
+	<SubTexture name="Mustache Grunt UP NOTE0013" x="1367" y="1545" width="664" height="776" frameX="0" frameY="-14" frameWidth="664" frameHeight="790"/>
+	<SubTexture name="Mustache Grunt UP NOTE0014" x="1367" y="1545" width="664" height="776" frameX="0" frameY="-14" frameWidth="664" frameHeight="790"/>
+</TextureAtlas>
