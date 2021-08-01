@@ -25,8 +25,8 @@ class HealthIcon extends FlxSprite
 		animation.add('engineer', [10, 11], 0, false, isPlayer);
 		animation.add('tricky', [12, 13], 0, false, isPlayer);
 		animation.add('tricky-train', [12, 13], 0, false, isPlayer);
-		animation.add('jebus-tricky-duet', [2, 3], 0, false, isPlayer);
-		animation.add('tricky-jebus-dead', [2, 3], 0, false, isPlayer);
+		animation.add('jebus-tricky-duet', [14, 15], 0, false, isPlayer);
+		animation.add('tricky-jebus-dead', [16, 17], 0, false, isPlayer);
 		animation.play(char);
 		scrollFactor.set();
 	}

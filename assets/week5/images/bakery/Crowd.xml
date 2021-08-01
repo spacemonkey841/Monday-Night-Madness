@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Crowd.png">
+	<!-- Created with Adobe Animate version 19.2.0.405 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Crowd Bop0000" x="10" y="10" width="2883" height="1748"/>
+	<SubTexture name="Crowd Bop0001" x="10" y="10" width="2883" height="1748"/>
+	<SubTexture name="Crowd Bop0002" x="2903" y="10" width="2883" height="1748"/>
+	<SubTexture name="Crowd Bop0003" x="2903" y="10" width="2883" height="1748"/>
+	<SubTexture name="Crowd Bop0004" x="10" y="1768" width="2883" height="1748"/>
+	<SubTexture name="Crowd Bop0005" x="10" y="1768" width="2883" height="1748"/>
+	<SubTexture name="Crowd Bop0006" x="2903" y="1768" width="2883" height="1748"/>
+	<SubTexture name="Crowd Bop0007" x="2903" y="1768" width="2883" height="1748"/>
+	<SubTexture name="Crowd Bop0008" x="2903" y="1768" width="2883" height="1748"/>
+	<SubTexture name="Crowd Bop0009" x="2903" y="1768" width="2883" height="1748"/>
+	<SubTexture name="Crowd Bop0010" x="2903" y="1768" width="2883" height="1748"/>
+	<SubTexture name="Crowd Bop0011" x="2903" y="1768" width="2883" height="1748"/>
+	<SubTexture name="Crowd Bop0012" x="2903" y="1768" width="2883" height="1748"/>
+	<SubTexture name="Crowd Bop0013" x="2903" y="1768" width="2883" height="1748"/>
+</TextureAtlas>

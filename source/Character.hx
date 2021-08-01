@@ -237,6 +237,59 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 				flipX = true;
+
+			case 'jebus-tricky-duet':
+				frames = Paths.getSparrowAtlas('characters/Jebus_Tricky_Assets');
+				animation.addByPrefix('idle', 'Jebus Tricky Idle Dance', 24, false);
+				animation.addByPrefix('singUP', 'Jebus Up Note', 24, false);
+				animation.addByPrefix('singDOWN', 'Jebus Down Note', 24, false);
+				animation.addByPrefix('singLEFT', 'Jebus Left Note', 24, false);
+				animation.addByPrefix('singRIGHT', 'Jebus Right Note', 24, false);
+
+				animation.addByPrefix('singUP-alt', 'Tricky Up Note', 24, false);
+
+				animation.addByPrefix('singDOWN-alt', 'Tricky Down Note', 24, false);
+				animation.addByPrefix('singLEFT-alt', 'Tricky Left Note', 24, false);
+				animation.addByPrefix('singRIGHT-alt', 'Tricky Right Note', 24, false);
+
+				addOffset('idle', -5, 90);
+				addOffset("singUP", -5, 88);
+				addOffset("singRIGHT", -52, 60);
+				addOffset("singLEFT", 49, 60);
+				addOffset("singDOWN", 28, 40);
+				addOffset("singUP-alt", -5, 88);
+				addOffset("singRIGHT-alt", -52, 60);
+				addOffset("singLEFT-alt", 49, 60);
+				addOffset("singDOWN-alt", 28, 40);
+
+				playAnim('idle');
+		
+
+			case 'tricky-jebus-dead':
+				frames = Paths.getSparrowAtlas('characters/Tricky_Jebus_Dead_Assets');
+				animation.addByPrefix('idle', 'Tricky Idle Dance', 24, false);
+				animation.addByPrefix('singUP', 'Jebus UP NOTE', 24, false);
+				animation.addByPrefix('singDOWN', 'Jebus DOWN NOTE', 24, false);
+				animation.addByPrefix('singLEFT', 'Jebus LEFT NOTE', 24, false);
+				animation.addByPrefix('singRIGHT', 'Jebus RIGHT NOTE', 24, false);
+
+				animation.addByPrefix('singUP-alt', 'Tricky UP NOTE', 24, false);
+
+				animation.addByPrefix('singDOWN-alt', 'Tricky DOWN NOTE', 24, false);
+				animation.addByPrefix('singLEFT-alt', 'Tricky LEFT NOTE', 24, false);
+				animation.addByPrefix('singRIGHT-alt', 'Tricky RIGHT NOTE', 24, false);
+
+				addOffset('idle', -5, 90);
+				addOffset("singUP", -35, 130);
+				addOffset("singRIGHT", -50, 80);
+				addOffset("singLEFT", -20, 105);
+				addOffset("singDOWN", -50, 70);
+				addOffset("singUP-alt", -40, 125);
+				addOffset("singRIGHT-alt", -85, 80);
+				addOffset("singLEFT-alt", 20, 105);
+				addOffset("singDOWN-alt", -50, 70);
+
+				playAnim('idle');
 		}
 
 		dance();

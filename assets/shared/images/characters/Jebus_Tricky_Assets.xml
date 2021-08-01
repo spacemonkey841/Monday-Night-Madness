@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Jebus_Tricky_Assets.png">
+	<!-- Created with Adobe Animate version 19.2.0.405 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Jebus Down Note0000" x="10" y="10" width="948" height="546" frameX="0" frameY="-2" frameWidth="948" frameHeight="548"/>
+	<SubTexture name="Jebus Down Note0001" x="968" y="10" width="941" height="546" frameX="0" frameY="-2" frameWidth="948" frameHeight="548"/>
+	<SubTexture name="Jebus Down Note0002" x="1919" y="10" width="917" height="545" frameX="-12" frameY="-3" frameWidth="948" frameHeight="548"/>
+	<SubTexture name="Jebus Down Note0003" x="2846" y="10" width="910" height="545" frameX="-12" frameY="-3" frameWidth="948" frameHeight="548"/>
+	<SubTexture name="Jebus Down Note0004" x="3766" y="10" width="902" height="545" frameX="-12" frameY="-3" frameWidth="948" frameHeight="548"/>
+	<SubTexture name="Jebus Down Note0005" x="4678" y="10" width="924" height="548" frameX="-12" frameY="0" frameWidth="948" frameHeight="548"/>
+	<SubTexture name="Jebus Down Note0006" x="1919" y="10" width="917" height="545" frameX="-12" frameY="-3" frameWidth="948" frameHeight="548"/>
+	<SubTexture name="Jebus Down Note0007" x="2846" y="10" width="910" height="545" frameX="-12" frameY="-3" frameWidth="948" frameHeight="548"/>
+	<SubTexture name="Jebus Down Note0008" x="3766" y="10" width="902" height="545" frameX="-12" frameY="-3" frameWidth="948" frameHeight="548"/>
+	<SubTexture name="Jebus Down Note0009" x="4678" y="10" width="924" height="548" frameX="-12" frameY="0" frameWidth="948" frameHeight="548"/>
+	<SubTexture name="Jebus Down Note0010" x="1919" y="10" width="917" height="545" frameX="-12" frameY="-3" frameWidth="948" frameHeight="548"/>
+	<SubTexture name="Jebus Down Note0011" x="2846" y="10" width="910" height="545" frameX="-12" frameY="-3" frameWidth="948" frameHeight="548"/>
+	<SubTexture name="Jebus Down Note0012" x="3766" y="10" width="902" height="545" frameX="-12" frameY="-3" frameWidth="948" frameHeight="548"/>
+	<SubTexture name="Jebus Down Note0013" x="4678" y="10" width="924" height="548" frameX="-12" frameY="0" frameWidth="948" frameHeight="548"/>
+	<SubTexture name="Jebus Down Note0014" x="1919" y="10" width="917" height="545" frameX="-12" frameY="-3" frameWidth="948" frameHeight="548"/>
+	<SubTexture name="Jebus Left Note0000" x="5612" y="10" width="901" height="569" frameX="0" frameY="-1" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Jebus Left Note0001" x="6523" y="10" width="901" height="569" frameX="0" frameY="-1" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Jebus Left Note0002" x="10" y="589" width="885" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Jebus Left Note0003" x="905" y="589" width="894" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Jebus Left Note0004" x="1809" y="589" width="885" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Jebus Left Note0005" x="2704" y="589" width="888" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Jebus Left Note0006" x="10" y="589" width="885" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Jebus Left Note0007" x="905" y="589" width="894" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Jebus Left Note0008" x="1809" y="589" width="885" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Jebus Left Note0009" x="2704" y="589" width="888" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Jebus Left Note0010" x="10" y="589" width="885" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Jebus Left Note0011" x="905" y="589" width="894" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Jebus Left Note0012" x="1809" y="589" width="885" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Jebus Left Note0013" x="2704" y="589" width="888" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Jebus Left Note0014" x="10" y="589" width="885" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Jebus Right Note0000" x="3602" y="589" width="855" height="575" frameX="-19" frameY="-2" frameWidth="890" frameHeight="577"/>
+	<SubTexture name="Jebus Right Note0001" x="4467" y="589" width="871" height="577" frameX="-19" frameY="0" frameWidth="890" frameHeight="577"/>
+	<SubTexture name="Jebus Right Note0002" x="5348" y="589" width="872" height="571" frameX="0" frameY="-6" frameWidth="890" frameHeight="577"/>
+	<SubTexture name="Jebus Right Note0003" x="6230" y="589" width="858" height="569" frameX="0" frameY="-8" frameWidth="890" frameHeight="577"/>
+	<SubTexture name="Jebus Right Note0004" x="7098" y="589" width="862" height="557" frameX="0" frameY="-20" frameWidth="890" frameHeight="577"/>
+	<SubTexture name="Jebus Right Note0005" x="10" y="1176" width="863" height="575" frameX="0" frameY="-2" frameWidth="890" frameHeight="577"/>
+	<SubTexture name="Jebus Right Note0006" x="5348" y="589" width="872" height="571" frameX="0" frameY="-6" frameWidth="890" frameHeight="577"/>
+	<SubTexture name="Jebus Right Note0007" x="6230" y="589" width="858" height="569" frameX="0" frameY="-8" frameWidth="890" frameHeight="577"/>
+	<SubTexture name="Jebus Right Note0008" x="7098" y="589" width="862" height="557" frameX="0" frameY="-20" frameWidth="890" frameHeight="577"/>
+	<SubTexture name="Jebus Right Note0009" x="10" y="1176" width="863" height="575" frameX="0" frameY="-2" frameWidth="890" frameHeight="577"/>
+	<SubTexture name="Jebus Right Note0010" x="5348" y="589" width="872" height="571" frameX="0" frameY="-6" frameWidth="890" frameHeight="577"/>
+	<SubTexture name="Jebus Right Note0011" x="6230" y="589" width="858" height="569" frameX="0" frameY="-8" frameWidth="890" frameHeight="577"/>
+	<SubTexture name="Jebus Right Note0012" x="7098" y="589" width="862" height="557" frameX="0" frameY="-20" frameWidth="890" frameHeight="577"/>
+	<SubTexture name="Jebus Right Note0013" x="10" y="1176" width="863" height="575" frameX="0" frameY="-2" frameWidth="890" frameHeight="577"/>
+	<SubTexture name="Jebus Right Note0014" x="5348" y="589" width="872" height="571" frameX="0" frameY="-6" frameWidth="890" frameHeight="577"/>
+	<SubTexture name="Jebus Tricky Idle Dance0000" x="883" y="1176" width="812" height="568" frameX="-50" frameY="-25" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Tricky Idle Dance0001" x="1705" y="1176" width="854" height="567" frameX="-44" frameY="-26" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Tricky Idle Dance0002" x="2569" y="1176" width="908" height="593" frameX="-35" frameY="0" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Tricky Idle Dance0003" x="3487" y="1176" width="849" height="557" frameX="-30" frameY="-36" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Tricky Idle Dance0004" x="4346" y="1176" width="823" height="560" frameX="-28" frameY="-33" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Tricky Idle Dance0005" x="5179" y="1176" width="817" height="547" frameX="-26" frameY="-46" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Tricky Idle Dance0006" x="6006" y="1176" width="815" height="559" frameX="-28" frameY="-34" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Tricky Idle Dance0007" x="6831" y="1176" width="806" height="559" frameX="-28" frameY="-34" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Tricky Idle Dance0008" x="10" y="1779" width="806" height="559" frameX="-28" frameY="-34" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Tricky Idle Dance0009" x="826" y="1779" width="822" height="559" frameX="-28" frameY="-34" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Tricky Idle Dance0010" x="1658" y="1779" width="831" height="559" frameX="-28" frameY="-34" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Tricky Idle Dance0011" x="2499" y="1779" width="816" height="561" frameX="-28" frameY="-32" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Tricky Idle Dance0012" x="3325" y="1779" width="832" height="556" frameX="-15" frameY="-37" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Tricky Idle Dance0013" x="4167" y="1779" width="840" height="558" frameX="-6" frameY="-35" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Tricky Idle Dance0014" x="5017" y="1779" width="852" height="584" frameX="0" frameY="-9" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Tricky Idle Dance0015" x="5879" y="1779" width="824" height="554" frameX="-17" frameY="-39" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Tricky Idle Dance0016" x="6713" y="1779" width="833" height="548" frameX="-15" frameY="-45" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Tricky Idle Dance0017" x="10" y="2373" width="830" height="563" frameX="-23" frameY="-30" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Tricky Idle Dance0018" x="6006" y="1176" width="815" height="559" frameX="-34" frameY="-34" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Tricky Idle Dance0019" x="6006" y="1176" width="815" height="559" frameX="-34" frameY="-34" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Tricky Idle Dance0020" x="850" y="2373" width="822" height="559" frameX="-34" frameY="-34" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Tricky Idle Dance0021" x="1682" y="2373" width="823" height="559" frameX="-33" frameY="-34" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Tricky Idle Dance0022" x="2515" y="2373" width="809" height="555" frameX="-30" frameY="-38" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Tricky Idle Dance0023" x="3334" y="2373" width="817" height="567" frameX="-39" frameY="-26" frameWidth="943" frameHeight="593"/>
+	<SubTexture name="Jebus Up Note0000" x="4161" y="2373" width="879" height="603" frameX="-13" frameY="0" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Jebus Up Note0001" x="5050" y="2373" width="888" height="589" frameX="-13" frameY="-14" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Jebus Up Note0002" x="5948" y="2373" width="884" height="586" frameX="0" frameY="-17" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Jebus Up Note0003" x="6842" y="2373" width="900" height="576" frameX="0" frameY="-27" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Jebus Up Note0004" x="10" y="2986" width="892" height="582" frameX="0" frameY="-21" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Jebus Up Note0005" x="912" y="2986" width="884" height="586" frameX="0" frameY="-17" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Jebus Up Note0006" x="5948" y="2373" width="884" height="586" frameX="0" frameY="-17" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Jebus Up Note0007" x="6842" y="2373" width="900" height="576" frameX="0" frameY="-27" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Jebus Up Note0008" x="10" y="2986" width="892" height="582" frameX="0" frameY="-21" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Jebus Up Note0009" x="912" y="2986" width="884" height="586" frameX="0" frameY="-17" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Jebus Up Note0010" x="5948" y="2373" width="884" height="586" frameX="0" frameY="-17" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Jebus Up Note0011" x="6842" y="2373" width="900" height="576" frameX="0" frameY="-27" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Jebus Up Note0012" x="10" y="2986" width="892" height="582" frameX="0" frameY="-21" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Jebus Up Note0013" x="912" y="2986" width="884" height="586" frameX="0" frameY="-17" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Jebus Up Note0014" x="5948" y="2373" width="884" height="586" frameX="0" frameY="-17" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Tricky Down Note0000" x="1806" y="2986" width="895" height="546" frameX="0" frameY="-2" frameWidth="912" frameHeight="548"/>
+	<SubTexture name="Tricky Down Note0001" x="2711" y="2986" width="898" height="546" frameX="0" frameY="-2" frameWidth="912" frameHeight="548"/>
+	<SubTexture name="Tricky Down Note0002" x="3619" y="2986" width="877" height="545" frameX="-12" frameY="-3" frameWidth="912" frameHeight="548"/>
+	<SubTexture name="Tricky Down Note0003" x="4506" y="2986" width="886" height="545" frameX="-12" frameY="-3" frameWidth="912" frameHeight="548"/>
+	<SubTexture name="Tricky Down Note0004" x="5402" y="2986" width="900" height="545" frameX="-12" frameY="-3" frameWidth="912" frameHeight="548"/>
+	<SubTexture name="Tricky Down Note0005" x="6312" y="2986" width="874" height="548" frameX="-12" frameY="0" frameWidth="912" frameHeight="548"/>
+	<SubTexture name="Tricky Down Note0006" x="3619" y="2986" width="877" height="545" frameX="-12" frameY="-3" frameWidth="912" frameHeight="548"/>
+	<SubTexture name="Tricky Down Note0007" x="4506" y="2986" width="886" height="545" frameX="-12" frameY="-3" frameWidth="912" frameHeight="548"/>
+	<SubTexture name="Tricky Down Note0008" x="5402" y="2986" width="900" height="545" frameX="-12" frameY="-3" frameWidth="912" frameHeight="548"/>
+	<SubTexture name="Tricky Down Note0009" x="6312" y="2986" width="874" height="548" frameX="-12" frameY="0" frameWidth="912" frameHeight="548"/>
+	<SubTexture name="Tricky Down Note0010" x="3619" y="2986" width="877" height="545" frameX="-12" frameY="-3" frameWidth="912" frameHeight="548"/>
+	<SubTexture name="Tricky Down Note0011" x="4506" y="2986" width="886" height="545" frameX="-12" frameY="-3" frameWidth="912" frameHeight="548"/>
+	<SubTexture name="Tricky Down Note0012" x="5402" y="2986" width="900" height="545" frameX="-12" frameY="-3" frameWidth="912" frameHeight="548"/>
+	<SubTexture name="Tricky Down Note0013" x="6312" y="2986" width="874" height="548" frameX="-12" frameY="0" frameWidth="912" frameHeight="548"/>
+	<SubTexture name="Tricky Down Note0014" x="3619" y="2986" width="877" height="545" frameX="-12" frameY="-3" frameWidth="912" frameHeight="548"/>
+	<SubTexture name="Tricky Left Note0000" x="7196" y="2986" width="901" height="569" frameX="0" frameY="-1" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Tricky Left Note0001" x="10" y="3582" width="901" height="569" frameX="0" frameY="-1" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Tricky Left Note0002" x="921" y="3582" width="885" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Tricky Left Note0003" x="1816" y="3582" width="894" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Tricky Left Note0004" x="2720" y="3582" width="885" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Tricky Left Note0005" x="3615" y="3582" width="888" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Tricky Left Note0006" x="921" y="3582" width="885" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Tricky Left Note0007" x="1816" y="3582" width="894" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Tricky Left Note0008" x="2720" y="3582" width="885" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Tricky Left Note0009" x="3615" y="3582" width="888" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Tricky Left Note0010" x="921" y="3582" width="885" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Tricky Left Note0011" x="1816" y="3582" width="894" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Tricky Left Note0012" x="2720" y="3582" width="885" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Tricky Left Note0013" x="3615" y="3582" width="888" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Tricky Left Note0014" x="921" y="3582" width="885" height="571" frameX="-19" frameY="0" frameWidth="913" frameHeight="571"/>
+	<SubTexture name="Tricky Right Note0000" x="4513" y="3582" width="874" height="575" frameX="-11" frameY="-2" frameWidth="901" frameHeight="577"/>
+	<SubTexture name="Tricky Right Note0001" x="5397" y="3582" width="890" height="577" frameX="-11" frameY="0" frameWidth="901" frameHeight="577"/>
+	<SubTexture name="Tricky Right Note0002" x="6297" y="3582" width="883" height="571" frameX="0" frameY="-6" frameWidth="901" frameHeight="577"/>
+	<SubTexture name="Tricky Right Note0003" x="7190" y="3582" width="869" height="569" frameX="0" frameY="-8" frameWidth="901" frameHeight="577"/>
+	<SubTexture name="Tricky Right Note0004" x="10" y="4169" width="873" height="557" frameX="0" frameY="-20" frameWidth="901" frameHeight="577"/>
+	<SubTexture name="Tricky Right Note0005" x="893" y="4169" width="874" height="575" frameX="0" frameY="-2" frameWidth="901" frameHeight="577"/>
+	<SubTexture name="Tricky Right Note0006" x="6297" y="3582" width="883" height="571" frameX="0" frameY="-6" frameWidth="901" frameHeight="577"/>
+	<SubTexture name="Tricky Right Note0007" x="7190" y="3582" width="869" height="569" frameX="0" frameY="-8" frameWidth="901" frameHeight="577"/>
+	<SubTexture name="Tricky Right Note0008" x="10" y="4169" width="873" height="557" frameX="0" frameY="-20" frameWidth="901" frameHeight="577"/>
+	<SubTexture name="Tricky Right Note0009" x="893" y="4169" width="874" height="575" frameX="0" frameY="-2" frameWidth="901" frameHeight="577"/>
+	<SubTexture name="Tricky Right Note0010" x="6297" y="3582" width="883" height="571" frameX="0" frameY="-6" frameWidth="901" frameHeight="577"/>
+	<SubTexture name="Tricky Right Note0011" x="7190" y="3582" width="869" height="569" frameX="0" frameY="-8" frameWidth="901" frameHeight="577"/>
+	<SubTexture name="Tricky Right Note0012" x="10" y="4169" width="873" height="557" frameX="0" frameY="-20" frameWidth="901" frameHeight="577"/>
+	<SubTexture name="Tricky Right Note0013" x="893" y="4169" width="874" height="575" frameX="0" frameY="-2" frameWidth="901" frameHeight="577"/>
+	<SubTexture name="Tricky Right Note0014" x="6297" y="3582" width="883" height="571" frameX="0" frameY="-6" frameWidth="901" frameHeight="577"/>
+	<SubTexture name="Tricky Up Note0000" x="1777" y="4169" width="879" height="603" frameX="-13" frameY="0" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Tricky Up Note0001" x="2666" y="4169" width="888" height="589" frameX="-13" frameY="-14" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Tricky Up Note0002" x="3564" y="4169" width="884" height="586" frameX="0" frameY="-17" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Tricky Up Note0003" x="4458" y="4169" width="900" height="576" frameX="0" frameY="-27" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Tricky Up Note0004" x="5368" y="4169" width="892" height="582" frameX="0" frameY="-21" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Tricky Up Note0005" x="6270" y="4169" width="884" height="586" frameX="0" frameY="-17" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Tricky Up Note0006" x="3564" y="4169" width="884" height="586" frameX="0" frameY="-17" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Tricky Up Note0007" x="4458" y="4169" width="900" height="576" frameX="0" frameY="-27" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Tricky Up Note0008" x="5368" y="4169" width="892" height="582" frameX="0" frameY="-21" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Tricky Up Note0009" x="6270" y="4169" width="884" height="586" frameX="0" frameY="-17" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Tricky Up Note0010" x="3564" y="4169" width="884" height="586" frameX="0" frameY="-17" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Tricky Up Note0011" x="4458" y="4169" width="900" height="576" frameX="0" frameY="-27" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Tricky Up Note0012" x="5368" y="4169" width="892" height="582" frameX="0" frameY="-21" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Tricky Up Note0013" x="6270" y="4169" width="884" height="586" frameX="0" frameY="-17" frameWidth="901" frameHeight="603"/>
+	<SubTexture name="Tricky Up Note0014" x="3564" y="4169" width="884" height="586" frameX="0" frameY="-17" frameWidth="901" frameHeight="603"/>
+</TextureAtlas>

@@ -73,6 +73,9 @@ class FreeplayState extends MusicBeatState
 		if (StoryMenuState.weekUnlocked[4] || isDebug)
 			addWeek(['Satin-Panties', 'High', 'Milf'], 4, ['tricky']);
 
+		if (StoryMenuState.weekUnlocked[5] || isDebug)
+			addWeek(['Cocoa', 'Eggnog', 'Winter-Horrorland'], 4, ['jebus-tricky-duet', 'tricky-jebus-dead', 'mustache-grunt']);
+
 		// LOAD MUSIC
 
 		// LOAD CHARACTERS

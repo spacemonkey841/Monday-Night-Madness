@@ -33,7 +33,7 @@ class StoryMenuState extends MusicBeatState
 	];
 	var curDifficulty:Int = 1;
 
-	public static var weekUnlocked:Array<Bool> = [true, true, true, true, true, false, false];
+	public static var weekUnlocked:Array<Bool> = [true, true, true, true, true, true, false];
 
 	var weekCharacters:Array<Dynamic> = [
 		['dad', 'bf', 'gf'],
@@ -41,7 +41,7 @@ class StoryMenuState extends MusicBeatState
 		['spooky', 'bf', 'gf'],
 		['pico', 'bf', 'gf'],
 		['mom', 'bf', 'gf'],
-		['dad', 'bf', 'gf'],
+		['parents-christmas', 'bf', 'gf'],
 		['dad', 'bf', 'gf']
 	];
 
@@ -51,7 +51,7 @@ class StoryMenuState extends MusicBeatState
 		"ROMP",
 		"Engineer",
 		"Clown",
-		"COMING SOON",
+		"Clown Kills You",
 		"COMIGN SOON"
 	];
 

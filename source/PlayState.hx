@@ -104,9 +104,7 @@ class PlayState extends MusicBeatState
 	var train:FlxSprite;
 	var agents:FlxSprite;
 
-	var upperBoppers:FlxSprite;
-	var bottomBoppers:FlxSprite;
-	var santa:FlxSprite;
+	var crowdBoppers:FlxSprite;
 
 	var bgGirls:BackgroundGirls;
 	var wiggleShit:WiggleEffect = new WiggleEffect();
@@ -379,82 +377,132 @@ class PlayState extends MusicBeatState
 						add(agents);
 						
 					}
-		          case 'cocoa' | 'eggnog':
+		          case 'cocoa':
 		          {
-	                          curStage = 'mall';
+	                	curStage = 'bakery';
+						defaultCamZoom = 0.80;
 
-		                  defaultCamZoom = 0.80;
+						var bg:FlxSprite = new FlxSprite(-1000, -400).loadGraphic(Paths.image('bakery/Sky'));
+						bg.scrollFactor.set(0.9, 0.9);
+						bg.active = false;
+						bg.setGraphicSize(Std.int(bg.width * 0.8));
+						bg.updateHitbox();
+						add(bg);
 
-		                  var bg:FlxSprite = new FlxSprite(-1000, -500).loadGraphic(Paths.image('christmas/bgWalls'));
-		                  bg.antialiasing = true;
-		                  bg.scrollFactor.set(0.2, 0.2);
-		                  bg.active = false;
-		                  bg.setGraphicSize(Std.int(bg.width * 0.8));
-		                  bg.updateHitbox();
-		                  add(bg);
+						var ground:FlxSprite = new FlxSprite(-1000, -400).loadGraphic(Paths.image('bakery/Ground'));
+						ground.scrollFactor.set(0.9, 0.9);
+						ground.active = false;
+						ground.setGraphicSize(Std.int(ground.width * 0.8));
+						ground.updateHitbox();
+						add(ground);
 
-		                  upperBoppers = new FlxSprite(-240, -90);
-		                  upperBoppers.frames = Paths.getSparrowAtlas('christmas/upperBop');
-		                  upperBoppers.animation.addByPrefix('bop', "Upper Crowd Bob", 24, false);
-		                  upperBoppers.antialiasing = true;
-		                  upperBoppers.scrollFactor.set(0.33, 0.33);
-		                  upperBoppers.setGraphicSize(Std.int(upperBoppers.width * 0.85));
-		                  upperBoppers.updateHitbox();
-		                  add(upperBoppers);
+						var bakery:FlxSprite = new FlxSprite(-1000, -400).loadGraphic(Paths.image('bakery/Bakery'));
+						bakery.scrollFactor.set(0.9, 0.9);
+						bakery.active = false;
+						bakery.setGraphicSize(Std.int(bakery.width * 0.8));
+						bakery.updateHitbox();
+						add(bakery);
 
-		                  var bgEscalator:FlxSprite = new FlxSprite(-1100, -600).loadGraphic(Paths.image('christmas/bgEscalator'));
-		                  bgEscalator.antialiasing = true;
-		                  bgEscalator.scrollFactor.set(0.3, 0.3);
-		                  bgEscalator.active = false;
-		                  bgEscalator.setGraphicSize(Std.int(bgEscalator.width * 0.9));
-		                  bgEscalator.updateHitbox();
-		                  add(bgEscalator);
+						var sign:FlxSprite = new FlxSprite(-1000, -400).loadGraphic(Paths.image('bakery/Stop Sign'));
+						sign.scrollFactor.set(0.9, 0.9);
+						sign.active = false;
+						sign.setGraphicSize(Std.int(sign.width * 0.8));
+						sign.updateHitbox();
+						add(sign);
 
-		                  var tree:FlxSprite = new FlxSprite(370, -250).loadGraphic(Paths.image('christmas/christmasTree'));
-		                  tree.antialiasing = true;
-		                  tree.scrollFactor.set(0.40, 0.40);
-		                  add(tree);
+						crowdBoppers = new FlxSprite(-1000, -600);
+						crowdBoppers.frames = Paths.getSparrowAtlas('bakery/Crowd');
+						crowdBoppers.animation.addByPrefix('bop', "Crowd Bop", 24, false);
+						crowdBoppers.antialiasing = true;
+						crowdBoppers.scrollFactor.set(0.9, 0.9);
+						crowdBoppers.setGraphicSize(Std.int(crowdBoppers.width * 0.85));
+						crowdBoppers.updateHitbox();
+						add(crowdBoppers);
+		          }
+				  case 'eggnog':
+		          {
+	                	curStage = 'bakeryWorry';
+						defaultCamZoom = 0.80;
 
-		                  bottomBoppers = new FlxSprite(-300, 140);
-		                  bottomBoppers.frames = Paths.getSparrowAtlas('christmas/bottomBop');
-		                  bottomBoppers.animation.addByPrefix('bop', 'Bottom Level Boppers', 24, false);
-		                  bottomBoppers.antialiasing = true;
-	                          bottomBoppers.scrollFactor.set(0.9, 0.9);
-	                          bottomBoppers.setGraphicSize(Std.int(bottomBoppers.width * 1));
-		                  bottomBoppers.updateHitbox();
-		                  add(bottomBoppers);
+						var bg:FlxSprite = new FlxSprite(-1000, -400).loadGraphic(Paths.image('bakery/Sky'));
+						bg.scrollFactor.set(0.9, 0.9);
+						bg.active = false;
+						bg.setGraphicSize(Std.int(bg.width * 0.8));
+						bg.updateHitbox();
+						add(bg);
 
-		                  var fgSnow:FlxSprite = new FlxSprite(-600, 700).loadGraphic(Paths.image('christmas/fgSnow'));
-		                  fgSnow.active = false;
-		                  fgSnow.antialiasing = true;
-		                  add(fgSnow);
+						var ground:FlxSprite = new FlxSprite(-1000, -400).loadGraphic(Paths.image('bakery/Ground'));
+						ground.scrollFactor.set(0.9, 0.9);
+						ground.active = false;
+						ground.setGraphicSize(Std.int(ground.width * 0.8));
+						ground.updateHitbox();
+						add(ground);
 
-		                  santa = new FlxSprite(-840, 150);
-		                  santa.frames = Paths.getSparrowAtlas('christmas/santa');
-		                  santa.animation.addByPrefix('idle', 'santa idle in fear', 24, false);
-		                  santa.antialiasing = true;
-		                  add(santa);
+						var bakery:FlxSprite = new FlxSprite(-1000, -400).loadGraphic(Paths.image('bakery/Bakery'));
+						bakery.scrollFactor.set(0.9, 0.9);
+						bakery.active = false;
+						bakery.setGraphicSize(Std.int(bakery.width * 0.8));
+						bakery.updateHitbox();
+						add(bakery);
+
+						var sign:FlxSprite = new FlxSprite(-1000, -400).loadGraphic(Paths.image('bakery/Stop Sign'));
+						sign.scrollFactor.set(0.9, 0.9);
+						sign.active = false;
+						sign.setGraphicSize(Std.int(sign.width * 0.8));
+						sign.updateHitbox();
+						add(sign);
+
+						crowdBoppers = new FlxSprite(-1000, -600);
+						crowdBoppers.frames = Paths.getSparrowAtlas('bakery/Crowd_Worry');
+						crowdBoppers.animation.addByPrefix('bop', "Crowd Bop", 24, false);
+						crowdBoppers.antialiasing = true;
+						crowdBoppers.scrollFactor.set(0.9, 0.9);
+						crowdBoppers.setGraphicSize(Std.int(crowdBoppers.width * 0.85));
+						crowdBoppers.updateHitbox();
+						add(crowdBoppers);
 		          }
 		          case 'winter-horrorland':
 		          {
-		                  curStage = 'mallEvil';
-		                  var bg:FlxSprite = new FlxSprite(-400, -500).loadGraphic(Paths.image('christmas/evilBG'));
-		                  bg.antialiasing = true;
-		                  bg.scrollFactor.set(0.2, 0.2);
-		                  bg.active = false;
-		                  bg.setGraphicSize(Std.int(bg.width * 0.8));
-		                  bg.updateHitbox();
-		                  add(bg);
+		                curStage = 'bakeryEvil';
+						defaultCamZoom = 0.80;
 
-		                  var evilTree:FlxSprite = new FlxSprite(300, -300).loadGraphic(Paths.image('christmas/evilTree'));
-		                  evilTree.antialiasing = true;
-		                  evilTree.scrollFactor.set(0.2, 0.2);
-		                  add(evilTree);
+						var bg:FlxSprite = new FlxSprite(-1000, -400).loadGraphic(Paths.image('bakery evil/Sky Evil'));
+						bg.scrollFactor.set(0.9, 0.9);
+						bg.active = false;
+						bg.setGraphicSize(Std.int(bg.width * 0.8));
+						bg.updateHitbox();
+						add(bg);
 
-		                  var evilSnow:FlxSprite = new FlxSprite(-200, 700).loadGraphic(Paths.image("christmas/evilSnow"));
-	                          evilSnow.antialiasing = true;
-		                  add(evilSnow);
-                        }
+						var ground:FlxSprite = new FlxSprite(-1000, -400).loadGraphic(Paths.image('bakery evil/Ground Evil'));
+						ground.scrollFactor.set(0.9, 0.9);
+						ground.active = false;
+						ground.setGraphicSize(Std.int(ground.width * 0.8));
+						ground.updateHitbox();
+						add(ground);
+
+						var bakery:FlxSprite = new FlxSprite(-1000, -400).loadGraphic(Paths.image('bakery evil/Bakery Evil'));
+						bakery.scrollFactor.set(0.9, 0.9);
+						bakery.active = false;
+						bakery.setGraphicSize(Std.int(bakery.width * 0.8));
+						bakery.updateHitbox();
+						add(bakery);
+
+						var sign:FlxSprite = new FlxSprite(-1000, -400).loadGraphic(Paths.image('bakery evil/Arrow Sign'));
+						sign.scrollFactor.set(0.9, 0.9);
+						sign.active = false;
+						sign.setGraphicSize(Std.int(sign.width * 0.8));
+						sign.updateHitbox();
+						add(sign);
+
+						crowdBoppers = new FlxSprite(-1000, -600);
+						crowdBoppers.frames = Paths.getSparrowAtlas('bakery evil/Mustache_Grunt_Crowd');
+						crowdBoppers.animation.addByPrefix('bop', "Mustache Grunt Bop", 24, false);
+						crowdBoppers.antialiasing = true;
+						crowdBoppers.scrollFactor.set(0.9, 0.9);
+						crowdBoppers.setGraphicSize(Std.int(crowdBoppers.width * 0.85));
+						crowdBoppers.updateHitbox();
+						add(crowdBoppers);
+                	}
 		          case 'senpai' | 'roses':
 		          {
 		                  curStage = 'school';
@@ -620,6 +668,8 @@ class PlayState extends MusicBeatState
 		{
 			case 'rompEvil':
 				gfVersion = 'grunt-dead';
+			case 'bakeryEvil':
+				gfVersion = 'grunt-dead';
 		}
 
 		gf = new Character(400, 130, gfVersion);
@@ -654,6 +704,11 @@ class PlayState extends MusicBeatState
 				dad.y += 300;
 			case 'tricky-train':
 				dad.y += 300;
+			case 'jebus-tricky-duet':
+				camPos.x -= 400;
+				dad.y += 200;
+			case 'tricky-jebus-dead':
+				dad.y += 300;
 		}
 
 		boyfriend = new Boyfriend(770, 450, SONG.player1);
@@ -680,6 +735,23 @@ class PlayState extends MusicBeatState
 				boyfriend.y += 50;
 				dad.y += 50;
 				gf.y += 150;
+
+			case 'bakery':
+				boyfriend.x -= 400;
+				boyfriend.y -= 100;
+				dad.x -= 1000;
+				gf.x -= 400;
+
+			case 'bakeryWorry':
+				boyfriend.x -= 400;
+				boyfriend.y -= 100;
+				dad.x -= 800;
+				gf.x -= 400;
+
+			case 'bakeryEvil':
+				boyfriend.x -= 400;
+				dad.x -= 800;
+				gf.x -= 500;
 		}
 
 		add(gf);
@@ -1490,7 +1562,7 @@ class PlayState extends MusicBeatState
 				{
 					case 'limo':
 						camFollow.x = boyfriend.getMidpoint().x - 300;
-					case 'mall':
+					case 'bakery':
 						camFollow.y = boyfriend.getMidpoint().y - 200;
 					case 'school':
 						camFollow.x = boyfriend.getMidpoint().x - 200;
@@ -2380,10 +2452,14 @@ class PlayState extends MusicBeatState
 			case 'school':
 				bgGirls.dance();
 
-			case 'mall':
-				upperBoppers.animation.play('bop', true);
-				bottomBoppers.animation.play('bop', true);
-				santa.animation.play('idle', true);
+			case 'bakeryEvil':
+				crowdBoppers.animation.play('bop', true);
+			
+			case 'bakeryWorry':
+				crowdBoppers.animation.play('bop', true);
+
+			case 'bakery':
+				crowdBoppers.animation.play('bop', true);
 
 			case "railroad":
 				if (!trainMoving)
