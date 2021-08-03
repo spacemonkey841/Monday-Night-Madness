@@ -1,8 +1,11 @@
 hank
 jebus
+grunt
 sanford-deimos
-mustache-grunt
 engineer
 tricky
 tricky-train
 hank-train
+jebus-tricky-duet
+tricky-jebus-dead
+mustache-grunt

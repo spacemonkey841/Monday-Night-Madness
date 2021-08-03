@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Mustache Grunt Bop.png">
+	<!-- Created with Adobe Animate version 19.2.0.405 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Mustache Grunt Bop0000" x="10" y="10" width="2696" height="1198"/>
+	<SubTexture name="Mustache Grunt Bop0001" x="10" y="10" width="2696" height="1198"/>
+	<SubTexture name="Mustache Grunt Bop0002" x="2716" y="10" width="2653" height="1198" frameX="-24" frameY="0" frameWidth="2696" frameHeight="1198"/>
+	<SubTexture name="Mustache Grunt Bop0003" x="2716" y="10" width="2653" height="1198" frameX="-24" frameY="0" frameWidth="2696" frameHeight="1198"/>
+	<SubTexture name="Mustache Grunt Bop0004" x="5379" y="10" width="2632" height="1198" frameX="-35" frameY="0" frameWidth="2696" frameHeight="1198"/>
+	<SubTexture name="Mustache Grunt Bop0005" x="5379" y="10" width="2632" height="1198" frameX="-35" frameY="0" frameWidth="2696" frameHeight="1198"/>
+	<SubTexture name="Mustache Grunt Bop0006" x="10" y="1218" width="2608" height="1198" frameX="-53" frameY="0" frameWidth="2696" frameHeight="1198"/>
+	<SubTexture name="Mustache Grunt Bop0007" x="10" y="1218" width="2608" height="1198" frameX="-53" frameY="0" frameWidth="2696" frameHeight="1198"/>
+	<SubTexture name="Mustache Grunt Bop0008" x="10" y="1218" width="2608" height="1198" frameX="-53" frameY="0" frameWidth="2696" frameHeight="1198"/>
+	<SubTexture name="Mustache Grunt Bop0009" x="10" y="1218" width="2608" height="1198" frameX="-53" frameY="0" frameWidth="2696" frameHeight="1198"/>
+	<SubTexture name="Mustache Grunt Bop0010" x="10" y="1218" width="2608" height="1198" frameX="-53" frameY="0" frameWidth="2696" frameHeight="1198"/>
+	<SubTexture name="Mustache Grunt Bop0011" x="10" y="1218" width="2608" height="1198" frameX="-53" frameY="0" frameWidth="2696" frameHeight="1198"/>
+	<SubTexture name="Mustache Grunt Bop0012" x="10" y="1218" width="2608" height="1198" frameX="-53" frameY="0" frameWidth="2696" frameHeight="1198"/>
+	<SubTexture name="Mustache Grunt Bop0013" x="10" y="1218" width="2608" height="1198" frameX="-53" frameY="0" frameWidth="2696" frameHeight="1198"/>
+</TextureAtlas>

@@ -1,34 +1,49 @@
 package;
 
+import flixel.FlxG;
 import flixel.FlxSprite;
+
+using StringTools;
 
 class HealthIcon extends FlxSprite
 {
+	public var char:String = 'hank';
+	public var isPlayer:Bool = false;
+	public var isOldIcon:Bool = false;
+
 	/**
 	 * Used for FreeplayState! If you use it elsewhere, prob gonna annoying
 	 */
 	public var sprTracker:FlxSprite;
 
-	public function new(char:String = 'bf', isPlayer:Bool = false)
+	public function new(?char:String = "hank", ?isPlayer:Bool = false)
 	{
 		super();
-		loadGraphic(Paths.image('iconGrid'), true, 150, 150);
 
-		antialiasing = true;
-		animation.add('hank', [0, 1], 0, false, isPlayer);
-		animation.add('hank-train', [0, 1], 0, false, isPlayer);
-		animation.add('grunt', [2, 3], 0, false, isPlayer);
-		animation.add('grunt-speaker', [2, 3], 0, false, isPlayer);
-		animation.add('jebus', [4, 5], 0, false, isPlayer);
-		animation.add('sanford-deimos', [6, 7], 0, false, isPlayer);
-		animation.add('mustache-grunt', [8, 9], 0, false, isPlayer);
-		animation.add('engineer', [10, 11], 0, false, isPlayer);
-		animation.add('tricky', [12, 13], 0, false, isPlayer);
-		animation.add('tricky-train', [12, 13], 0, false, isPlayer);
-		animation.add('jebus-tricky-duet', [14, 15], 0, false, isPlayer);
-		animation.add('tricky-jebus-dead', [16, 17], 0, false, isPlayer);
-		animation.play(char);
+		this.char = char;
+		this.isPlayer = isPlayer;
+
+		isPlayer = isOldIcon = false;
+
+		if (FlxG.save.data.antialiasing)
+		{
+			antialiasing = true;
+		}
+
+		changeIcon(char);
 		scrollFactor.set();
+	}
+
+	public function swapOldIcon()
+	{
+		(isOldIcon = !isOldIcon) ? changeIcon("hank-old") : changeIcon(char);
+	}
+
+	public function changeIcon(char:String)
+	{
+		loadGraphic(Paths.image('icons/icon-' + char), true, 150, 150);
+		animation.add(char, [0, 1], 0, false, isPlayer);
+		animation.play(char);
 	}
 
 	override function update(elapsed:Float)

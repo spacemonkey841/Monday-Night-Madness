@@ -26,12 +26,15 @@ class Character extends FlxSprite
 		this.isPlayer = isPlayer;
 
 		var tex:FlxAtlasFrames;
-		antialiasing = true;
+		if(FlxG.save.data.antialiasing)
+			{
+				antialiasing = true;
+			}
 
 		switch (curCharacter)
 		{
 			case 'grunt':
-				tex = Paths.getSparrowAtlas('characters/Grunt_GF_Assets');
+				tex = Paths.getSparrowAtlas('Grunt_GF_Assets','shared',true);
 				frames = tex;
 				animation.addByPrefix('cheer', 'Grunt Cheer', 24, false);
 				animation.addByPrefix('singLEFT', 'Grunt Left Note', 24, false);
@@ -41,32 +44,23 @@ class Character extends FlxSprite
 				animation.addByIndices('sad', 'Grunt Sad', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "", 24, false);
 				animation.addByIndices('danceLeft', 'Grunt Dancing Beat', [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
 				animation.addByIndices('danceRight', 'Grunt Dancing Beat', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
-				
 
-				addOffset('cheer', -9, 90);
-				addOffset('sad', -12, -111);
-				addOffset('danceLeft', -6, -105);
-				addOffset('danceRight', -6, -105);
-
-				addOffset("singUP", -9, -108);
-				addOffset("singRIGHT", -7, -135);
-				addOffset("singLEFT", -7, -124);
-				addOffset("singDOWN", -10, -127);
+				loadOffsetFile(curCharacter);
 
 				playAnim('danceRight');
-
+			
 			case 'grunt-dead':
-				tex = Paths.getSparrowAtlas('characters/Grunt_GF_Dead_Assets');
+				tex = Paths.getSparrowAtlas('Grunt_GF_Dead_Assets','shared',true);
 				frames = tex;
 				animation.addByPrefix('idle', 'Grunt Dancing Beat', 24, false);
 				animation.addByPrefix('singUP', 'Grunt Dancing Beat', 24, false);
 
-				addOffset('idle', 136, -65);
+				loadOffsetFile(curCharacter);
 
 				playAnim('idle');
 
 			case 'jebus':
-				tex = Paths.getSparrowAtlas('characters/Jebus_Assets');
+				tex = Paths.getSparrowAtlas('Jebus_Assets','shared',true);
 				frames = tex;
 				animation.addByPrefix('idle', 'Jebus Idle Dance', 24);
 				animation.addByPrefix('singUP', 'Jebus UP NOTE', 24);
@@ -74,16 +68,12 @@ class Character extends FlxSprite
 				animation.addByPrefix('singDOWN', 'Jebus DOWN NOTE', 24);
 				animation.addByPrefix('singLEFT', 'Jebus LEFT NOTE', 24);
 
-				addOffset('idle', -5, 90);
-				addOffset("singUP", -83, 112);
-				addOffset("singRIGHT", -52, 82);
-				addOffset("singLEFT", 40, 105);
-				addOffset("singDOWN", -27, 74);
+				loadOffsetFile(curCharacter);
 
 				playAnim('idle');
 
 			case 'sanford-deimos':
-				tex = Paths.getSparrowAtlas('characters/Sanford_Deimos_Assets');
+				tex = Paths.getSparrowAtlas('Sanford_Deimos_Assets','shared',true);
 				frames = tex;
 				animation.addByPrefix('singUP', 'Sanford Deimos UP NOTE', 24, false);
 				animation.addByPrefix('singDOWN', 'Sanford Deimos DOWN NOTE', 24, false);
@@ -91,17 +81,12 @@ class Character extends FlxSprite
 				animation.addByPrefix('singRIGHT', 'Sanford Deimos RIGHT NOTE', 24, false);
 				animation.addByPrefix('idle', 'Sanford Deimos Idle Dance', 24, false);
 
-				addOffset('idle', -5, 120);
-
-				addOffset("singUP", 50, 120);
-				addOffset("singRIGHT", 40, 121);
-				addOffset("singLEFT", 53, 126);
-				addOffset("singDOWN", -11, 53);
+				loadOffsetFile(curCharacter);
 
 				playAnim('idle');
 
 			case 'tricky':
-				tex = Paths.getSparrowAtlas('characters/Tricky_Assets');
+				tex = Paths.getSparrowAtlas('Tricky_Assets','shared',true);
 				frames = tex;
 
 				animation.addByPrefix('idle', 'Tricky Idle Dance', 24);
@@ -110,16 +95,12 @@ class Character extends FlxSprite
 				animation.addByPrefix('singDOWN', 'Tricky DOWN NOTE', 24);
 				animation.addByPrefix('singLEFT', 'Tricky LEFT NOTE', 24);
 
-				addOffset('idle', -5, 80);
-				addOffset("singUP", -40, 125);
-				addOffset("singRIGHT", -85, 110);
-				addOffset("singLEFT", 20, 155);
-				addOffset("singDOWN", -50, 100);
+				loadOffsetFile(curCharacter);
 
 				playAnim('idle');
 
 			case 'tricky-train':
-				tex = Paths.getSparrowAtlas('characters/Tricky_Train_Assets');
+				tex = Paths.getSparrowAtlas('Tricky_Train_Assets','shared',true);
 				frames = tex;
 
 				animation.addByPrefix('idle', 'Tricky Idle Dance', 24);
@@ -128,16 +109,12 @@ class Character extends FlxSprite
 				animation.addByPrefix('singDOWN', 'Tricky DOWN NOTE', 24);
 				animation.addByPrefix('singLEFT', 'Tricky LEFT NOTE', 24);
 
-				addOffset('idle', -5, 80);
-				addOffset("singUP", -40, 125);
-				addOffset("singRIGHT", -85, 110);
-				addOffset("singLEFT", 20, 155);
-				addOffset("singDOWN", -50, 100);
+				loadOffsetFile(curCharacter);
 
 				playAnim('idle');
-			
+
 			case 'mustache-grunt':
-				tex = Paths.getSparrowAtlas('characters/Mustache_Grunt_Assets');
+				tex = Paths.getSparrowAtlas('Mustache_Grunt_Assets','shared',true);
 				frames = tex;
 				animation.addByPrefix('idle', 'Mustache Grunt Idle Dance', 24, false);
 				animation.addByPrefix('singUP', 'Mustache Grunt UP NOTE', 24, false);
@@ -145,16 +122,12 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'Mustache Grunt LEFT NOTE', 24, false);
 				animation.addByPrefix('singRIGHT', 'Mustache Grunt RIGHT NOTE', 24, false);
 
-				addOffset('idle', -5, 60);
-				addOffset("singUP", -70, 129);
-				addOffset("singRIGHT", -48, 34);
-				addOffset("singLEFT", 38, 128);
-				addOffset("singDOWN", -32, 69);
+				loadOffsetFile(curCharacter);
 
 				playAnim('idle');
-			
+
 			case 'engineer':
-				tex = Paths.getSparrowAtlas('characters/Engineer_Assets');
+				tex = Paths.getSparrowAtlas('Engineer_Assets','shared',true);
 				frames = tex;
 				animation.addByPrefix('idle', 'Engineer Idle Dance', 24, false);
 				animation.addByPrefix('singUP', 'Engineer UP NOTE', 24, false);
@@ -162,17 +135,12 @@ class Character extends FlxSprite
 				animation.addByPrefix('singRIGHT', 'Engineer RIGHT NOTE', 24, false);
 				animation.addByPrefix('singDOWN', 'Engineer DOWN NOTE', 24, false);
 
-				addOffset('idle', -9, 80);
-				addOffset("singUP", -70, 106);
-				addOffset("singRIGHT", -56, 74);
-				addOffset("singLEFT", 35, 66);
-				addOffset("singDOWN", -27, 49);
+				loadOffsetFile(curCharacter);
 
 				playAnim('idle');
 
-
 			case 'hank':
-				var tex = Paths.getSparrowAtlas('characters/Hank_Assets');
+				var tex = Paths.getSparrowAtlas('Hank_Assets','shared',true);
 				frames = tex;
 
 				animation.addByPrefix('idle', 'Hank Idle Dance', 24, false);
@@ -192,27 +160,14 @@ class Character extends FlxSprite
 
 				animation.addByPrefix('scared', 'Hank Scared', 24);
 
-				addOffset('idle', -5, 90);
-				addOffset("singUP", -29, 117);
-				addOffset("singRIGHT", -58, 102);
-				addOffset("singLEFT", 24, 84);
-				addOffset("singDOWN", -14, 69);
-				addOffset("singUPmiss", -29, 117);
-				addOffset("singRIGHTmiss", -58, 102);
-				addOffset("singLEFTmiss", 24, 102);
-				addOffset("singDOWNmiss", -14, 87);
-				addOffset("hey", -9, 94);
-				addOffset('firstDeath', 9, 94);
-				addOffset('deathLoop', 9, 94);
-				addOffset('deathConfirm', 9, 139);
-				addOffset('scared',-23, 102);
+				loadOffsetFile(curCharacter);
 
 				playAnim('idle');
 
 				flipX = true;
 
 			case 'hank-train':
-				var tex = Paths.getSparrowAtlas('characters/Hank_Train_Assets');
+				var tex = Paths.getSparrowAtlas('Hank_Train_Assets','shared',true);
 				frames = tex;
 				animation.addByPrefix('idle', 'Hank Idle Dance', 24, false);
 				animation.addByPrefix('singUP', 'Hank UP NOTE', 24, false);
@@ -224,22 +179,14 @@ class Character extends FlxSprite
 				animation.addByPrefix('singRIGHTmiss', 'Hank RIGHT MISS', 24, false);
 				animation.addByPrefix('singDOWNmiss', 'Hank DOWN MISS', 24, false);
 
-				addOffset('idle', -5, 90);
-				addOffset("singUP", -29, 117);
-				addOffset("singRIGHT", -58, 102);
-				addOffset("singLEFT", 24, 84);
-				addOffset("singDOWN", -14, 69);
-				addOffset("singUPmiss", -29, 117);
-				addOffset("singRIGHTmiss", -58, 102);
-				addOffset("singLEFTmiss", 24, 102);
-				addOffset("singDOWNmiss", -14, 87);
+				loadOffsetFile(curCharacter);
 
 				playAnim('idle');
 
 				flipX = true;
 
 			case 'jebus-tricky-duet':
-				frames = Paths.getSparrowAtlas('characters/Jebus_Tricky_Assets');
+				frames = Paths.getSparrowAtlas('Jebus_Tricky_Assets','shared',true);
 				animation.addByPrefix('idle', 'Jebus Tricky Idle Dance', 24, false);
 				animation.addByPrefix('singUP', 'Jebus Up Note', 24, false);
 				animation.addByPrefix('singDOWN', 'Jebus Down Note', 24, false);
@@ -252,21 +199,12 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT-alt', 'Tricky Left Note', 24, false);
 				animation.addByPrefix('singRIGHT-alt', 'Tricky Right Note', 24, false);
 
-				addOffset('idle', -5, 90);
-				addOffset("singUP", -5, 88);
-				addOffset("singRIGHT", -52, 60);
-				addOffset("singLEFT", 49, 60);
-				addOffset("singDOWN", 28, 40);
-				addOffset("singUP-alt", -5, 88);
-				addOffset("singRIGHT-alt", -52, 60);
-				addOffset("singLEFT-alt", 49, 60);
-				addOffset("singDOWN-alt", 28, 40);
+				loadOffsetFile(curCharacter);
 
 				playAnim('idle');
-		
 
 			case 'tricky-jebus-dead':
-				frames = Paths.getSparrowAtlas('characters/Tricky_Jebus_Dead_Assets');
+				frames = Paths.getSparrowAtlas('Tricky_Jebus_Dead_Assets','shared',true);
 				animation.addByPrefix('idle', 'Tricky Idle Dance', 24, false);
 				animation.addByPrefix('singUP', 'Jebus UP NOTE', 24, false);
 				animation.addByPrefix('singDOWN', 'Jebus DOWN NOTE', 24, false);
@@ -279,15 +217,7 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT-alt', 'Tricky LEFT NOTE', 24, false);
 				animation.addByPrefix('singRIGHT-alt', 'Tricky RIGHT NOTE', 24, false);
 
-				addOffset('idle', -5, 90);
-				addOffset("singUP", -35, 130);
-				addOffset("singRIGHT", -50, 80);
-				addOffset("singLEFT", -20, 105);
-				addOffset("singDOWN", -50, 70);
-				addOffset("singUP-alt", -40, 125);
-				addOffset("singRIGHT-alt", -85, 80);
-				addOffset("singLEFT-alt", 20, 105);
-				addOffset("singDOWN-alt", -50, 70);
+				loadOffsetFile(curCharacter);
 
 				playAnim('idle');
 		}
@@ -317,6 +247,17 @@ class Character extends FlxSprite
 		}
 	}
 
+	public function loadOffsetFile(character:String, library:String = 'shared')
+	{
+		var offset:Array<String> = CoolUtil.coolTextFile(Paths.txt('images/characters/' + character + "Offsets", library));
+
+		for (i in 0...offset.length)
+		{
+			var data:Array<String> = offset[i].split(' ');
+			addOffset(data[0], Std.parseInt(data[1]), Std.parseInt(data[2]));
+		}
+	}
+
 	override function update(elapsed:Float)
 	{
 		if (!curCharacter.startsWith('hank'))
@@ -332,6 +273,7 @@ class Character extends FlxSprite
 				dadVar = 6.1;
 			if (holdTimer >= Conductor.stepCrochet * dadVar * 0.001)
 			{
+				trace('dance');
 				dance();
 				holdTimer = 0;
 			}
@@ -345,13 +287,14 @@ class Character extends FlxSprite
 	/**
 	 * FOR GF DANCING SHIT
 	 */
-	public function dance()
+	public function dance(forced:Bool = false)
 	{
 		if (!debugMode)
 		{
 			switch (curCharacter)
 			{
 				case 'grunt':
+					if (!animation.curAnim.name.startsWith('hair'))
 					{
 						danced = !danced;
 
@@ -361,7 +304,7 @@ class Character extends FlxSprite
 							playAnim('danceLeft');
 					}
 				default:
-					playAnim('idle');
+					playAnim('idle', forced);
 			}
 		}
 	}
