@@ -59,6 +59,16 @@ class Character extends FlxSprite
 
 				playAnim('idle');
 
+			case 'grunt-spikes':
+				tex = Paths.getSparrowAtlas('Grunt_GF_Spikes_Assets','shared',true);
+				frames = tex;
+				animation.addByPrefix('idle', 'Grunt Dancing Beat', 24, false);
+				animation.addByPrefix('singUP', 'Grunt Dancing Beat', 24, false);
+
+				loadOffsetFile(curCharacter);
+
+				playAnim('idle');
+
 			case 'jebus':
 				tex = Paths.getSparrowAtlas('Jebus_Assets','shared',true);
 				frames = tex;
@@ -216,6 +226,45 @@ class Character extends FlxSprite
 				animation.addByPrefix('singDOWN-alt', 'Tricky DOWN NOTE', 24, false);
 				animation.addByPrefix('singLEFT-alt', 'Tricky LEFT NOTE', 24, false);
 				animation.addByPrefix('singRIGHT-alt', 'Tricky RIGHT NOTE', 24, false);
+
+				loadOffsetFile(curCharacter);
+
+				playAnim('idle');
+
+			case 'auditor':
+				tex = Paths.getSparrowAtlas('Auditor_Assets','shared',true);
+				frames = tex;
+				animation.addByPrefix('idle', 'Auditor Idle Dance', 24);
+				animation.addByPrefix('singUP', 'Auditor UP NOTE', 24);
+				animation.addByPrefix('singRIGHT', 'Auditor RIGHT NOTE', 24);
+				animation.addByPrefix('singDOWN', 'Auditor DOWN NOTE', 24);
+				animation.addByPrefix('singLEFT', 'Auditor LEFT NOTE', 24);
+
+				loadOffsetFile(curCharacter);
+
+				playAnim('idle');
+
+			case 'auditor-large':
+				tex = Paths.getSparrowAtlas('Auditor_Phase2_Assets','shared',true);
+				frames = tex;
+				animation.addByPrefix('idle', 'Auditor Idle Dance', 24);
+				animation.addByPrefix('singUP', 'Auditor UP NOTE', 24);
+				animation.addByPrefix('singRIGHT', 'Auditor RIGHT NOTE', 24);
+				animation.addByPrefix('singDOWN', 'Auditor DOWN NOTE', 24);
+				animation.addByPrefix('singLEFT', 'Auditor LEFT NOTE', 24);
+
+				loadOffsetFile(curCharacter);
+
+				playAnim('idle');
+
+			case 'auditor-tricky':
+				tex = Paths.getSparrowAtlas('Auditor_Tricky_Assets','shared',true);
+				frames = tex;
+				animation.addByPrefix('idle', 'Tricky Idle Dance', 24);
+				animation.addByPrefix('singUP', 'Tricky UP NOTE', 24);
+				animation.addByPrefix('singRIGHT', 'Tricky RIGHT NOTE', 24);
+				animation.addByPrefix('singDOWN', 'Tricky DOWN NOTE', 24);
+				animation.addByPrefix('singLEFT', 'Tricky LEFT NOTE', 24);
 
 				loadOffsetFile(curCharacter);
 

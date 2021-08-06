@@ -9,3 +9,6 @@ hank-train
 jebus-tricky-duet
 tricky-jebus-dead
 mustache-grunt
+auditor
+auditor-large
+auditor-tricky

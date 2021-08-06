@@ -6,3 +6,6 @@ train
 bakery
 bakeryWorry
 bakeryEvil
+island
+island2
+islandEvil

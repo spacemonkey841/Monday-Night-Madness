@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="skeletonCrowd.png">
+	<!-- Created with Adobe Animate version 19.2.0.405 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="skeletonCrowdBop0000" x="10" y="10" width="2473" height="1377"/>
+	<SubTexture name="skeletonCrowdBop0001" x="10" y="10" width="2473" height="1377"/>
+	<SubTexture name="skeletonCrowdBop0002" x="2493" y="10" width="2473" height="1377"/>
+	<SubTexture name="skeletonCrowdBop0003" x="2493" y="10" width="2473" height="1377"/>
+	<SubTexture name="skeletonCrowdBop0004" x="4976" y="10" width="2473" height="1377"/>
+	<SubTexture name="skeletonCrowdBop0005" x="4976" y="10" width="2473" height="1377"/>
+	<SubTexture name="skeletonCrowdBop0006" x="10" y="1397" width="2473" height="1377"/>
+	<SubTexture name="skeletonCrowdBop0007" x="10" y="1397" width="2473" height="1377"/>
+	<SubTexture name="skeletonCrowdBop0008" x="10" y="1397" width="2473" height="1377"/>
+	<SubTexture name="skeletonCrowdBop0009" x="10" y="1397" width="2473" height="1377"/>
+	<SubTexture name="skeletonCrowdBop0010" x="10" y="1397" width="2473" height="1377"/>
+	<SubTexture name="skeletonCrowdBop0011" x="10" y="1397" width="2473" height="1377"/>
+	<SubTexture name="skeletonCrowdBop0012" x="10" y="1397" width="2473" height="1377"/>
+	<SubTexture name="skeletonCrowdBop0013" x="10" y="1397" width="2473" height="1377"/>
+</TextureAtlas>

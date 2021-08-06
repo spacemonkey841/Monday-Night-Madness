@@ -344,12 +344,10 @@ class PlayState extends MusicBeatState
 		// To avoid having duplicate images in Discord assets
 		switch (iconRPC)
 		{
-			case 'senpai-angry':
-				iconRPC = 'senpai';
-			case 'monster-christmas':
-				iconRPC = 'monster';
-			case 'mom-car':
-				iconRPC = 'mom';
+			case 'auditor-large':
+				iconRPC = 'auditor';
+			case 'tricky-train':
+				iconRPC = 'tricky';
 		}
 
 		// String that contains the mode defined here so it isn't necessary to call changePresence for each mode
@@ -514,11 +512,11 @@ class PlayState extends MusicBeatState
 				case 6:
 					if (songLowercase == 'thorns')
 					{
-						stageCheck = 'schoolEvil';
+						stageCheck = 'islandEvil';
 					}
 					else
 					{
-						stageCheck = 'school';
+						stageCheck = 'island';
 					}
 					// i should check if its stage (but this is when none is found in chart anyway)
 			}
@@ -823,137 +821,119 @@ class PlayState extends MusicBeatState
 							add(crowdBoppers);
 						}
 					}
-				case 'school':
+				case 'island':
 					{
-						curStage = 'school';
+						curStage = 'island';
 
-						// defaultCamZoom = 0.9;
+						// defaultCamZoom = 1.0;
 
-						var bgSky = new FlxSprite().loadGraphic(Paths.image('weeb/weebSky', 'week6'));
-						bgSky.scrollFactor.set(0.1, 0.1);
-						add(bgSky);
-
-						var repositionShit = -200;
-
-						var bgSchool:FlxSprite = new FlxSprite(repositionShit, 0).loadGraphic(Paths.image('weeb/weebSchool', 'week6'));
-						bgSchool.scrollFactor.set(0.6, 0.90);
-						add(bgSchool);
-
-						var bgStreet:FlxSprite = new FlxSprite(repositionShit).loadGraphic(Paths.image('weeb/weebStreet', 'week6'));
-						bgStreet.scrollFactor.set(0.95, 0.95);
-						add(bgStreet);
-
-						var fgTrees:FlxSprite = new FlxSprite(repositionShit + 170, 130).loadGraphic(Paths.image('weeb/weebTreesBack', 'week6'));
-						fgTrees.scrollFactor.set(0.9, 0.9);
-						add(fgTrees);
-
-						var bgTrees:FlxSprite = new FlxSprite(repositionShit - 380, -800);
-						var treetex = Paths.getPackerAtlas('weeb/weebTrees', 'week6');
-						bgTrees.frames = treetex;
-						bgTrees.animation.add('treeLoop', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], 12);
-						bgTrees.animation.play('treeLoop');
-						bgTrees.scrollFactor.set(0.85, 0.85);
-						add(bgTrees);
-
-						var treeLeaves:FlxSprite = new FlxSprite(repositionShit, -40);
-						treeLeaves.frames = Paths.getSparrowAtlas('weeb/petals', 'week6');
-						treeLeaves.animation.addByPrefix('leaves', 'PETALS ALL', 24, true);
-						treeLeaves.animation.play('leaves');
-						treeLeaves.scrollFactor.set(0.85, 0.85);
-						add(treeLeaves);
-
-						var widShit = Std.int(bgSky.width * 6);
-
-						bgSky.setGraphicSize(widShit);
-						bgSchool.setGraphicSize(widShit);
-						bgStreet.setGraphicSize(widShit);
-						bgTrees.setGraphicSize(Std.int(widShit * 1.4));
-						fgTrees.setGraphicSize(Std.int(widShit * 0.8));
-						treeLeaves.setGraphicSize(widShit);
-
-						fgTrees.updateHitbox();
-						bgSky.updateHitbox();
-						bgSchool.updateHitbox();
-						bgStreet.updateHitbox();
-						bgTrees.updateHitbox();
-						treeLeaves.updateHitbox();
-
-						bgGirls = new BackgroundGirls(-100, 190);
-						bgGirls.scrollFactor.set(0.9, 0.9);
-
-						if (songLowercase == 'roses')
-						{
-							if (FlxG.save.data.distractions)
-							{
-								bgGirls.getScared();
-							}
-						}
-
-						bgGirls.setGraphicSize(Std.int(bgGirls.width * daPixelZoom));
-						bgGirls.updateHitbox();
-						if (FlxG.save.data.distractions)
-						{
-							add(bgGirls);
-						}
-					}
-				case 'schoolEvil':
-					{
-						curStage = 'schoolEvil';
-
-						if (!PlayStateChangeables.Optimize)
-						{
-							var waveEffectBG = new FlxWaveEffect(FlxWaveMode.ALL, 2, -1, 3, 2);
-							var waveEffectFG = new FlxWaveEffect(FlxWaveMode.ALL, 2, -1, 5, 2);
-						}
-
-						var posX = 400;
-						var posY = 200;
-
-						var bg:FlxSprite = new FlxSprite(posX, posY);
-						bg.frames = Paths.getSparrowAtlas('weeb/animatedEvilSchool', 'week6');
-						bg.animation.addByPrefix('idle', 'background 2', 24);
-						bg.animation.play('idle');
-						bg.scrollFactor.set(0.8, 0.9);
-						bg.scale.set(6, 6);
+						var bg:FlxSprite = new FlxSprite(-600, -800).loadGraphic(Paths.image('island/Sky'));
+						bg.antialiasing = true;
+						bg.scrollFactor.set(0.9, 0.9);
+						bg.active = false;
 						add(bg);
 
-						/* 
-							var bg:FlxSprite = new FlxSprite(posX, posY).loadGraphic(Paths.image('weeb/evilSchoolBG'));
-							bg.scale.set(6, 6);
-							// bg.setGraphicSize(Std.int(bg.width * 6));
-							// bg.updateHitbox();
-							add(bg);
-							var fg:FlxSprite = new FlxSprite(posX, posY).loadGraphic(Paths.image('weeb/evilSchoolFG'));
-							fg.scale.set(6, 6);
-							// fg.setGraphicSize(Std.int(fg.width * 6));
-							// fg.updateHitbox();
-							add(fg);
-							wiggleShit.effectType = WiggleEffectType.DREAMY;
-							wiggleShit.waveAmplitude = 0.01;
-							wiggleShit.waveFrequency = 60;
-							wiggleShit.waveSpeed = 0.8;
-						 */
+						var island:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('island/islandBase'));
+						island.antialiasing = true;
+						island.scrollFactor.set(0.9, 0.9);
+						island.active = false;
+						add(island);
 
-						// bg.shader = wiggleShit.shader;
-						// fg.shader = wiggleShit.shader;
+						var platform:FlxSprite = new FlxSprite(-600, -600).loadGraphic(Paths.image('island/platform'));
+						platform.antialiasing = true;
+						platform.scrollFactor.set(0.9, 0.9);
+						platform.active = false;
+						add(platform);
 
-						/* 
-							var waveSprite = new FlxEffectSprite(bg, [waveEffectBG]);
-							var waveSpriteFG = new FlxEffectSprite(fg, [waveEffectFG]);
-							// Using scale since setGraphicSize() doesnt work???
-							waveSprite.scale.set(6, 6);
-							waveSpriteFG.scale.set(6, 6);
-							waveSprite.setPosition(posX, posY);
-							waveSpriteFG.setPosition(posX, posY);
-							waveSprite.scrollFactor.set(0.7, 0.8);
-							waveSpriteFG.scrollFactor.set(0.9, 0.8);
-							// waveSprite.setGraphicSize(Std.int(waveSprite.width * 6));
-							// waveSprite.updateHitbox();
-							// waveSpriteFG.setGraphicSize(Std.int(fg.width * 6));
-							// waveSpriteFG.updateHitbox();
-							add(waveSprite);
-							add(waveSpriteFG);
-						 */
+						crowdBoppers = new FlxSprite(-600, -600);
+						crowdBoppers.frames = Paths.getSparrowAtlas('island/bgCrowd');
+						crowdBoppers.animation.addByPrefix('bop', "bgCrowdBop", 24, false);
+						crowdBoppers.antialiasing = true;
+						if (FlxG.save.data.distractions)
+						{
+							add(crowdBoppers);
+						}
+
+						var controll:FlxSprite = new FlxSprite(-600, -560).loadGraphic(Paths.image('island/platformControll'));
+						controll.antialiasing = true;
+						controll.scrollFactor.set(0.9, 0.9);
+						controll.active = false;
+						add(controll);
+					}
+				case 'island2':
+					{
+						curStage = 'island2';
+
+						// defaultCamZoom = 1.0;
+
+						var bg:FlxSprite = new FlxSprite(-600, -800).loadGraphic(Paths.image('island/Sky'));
+						bg.antialiasing = true;
+						bg.scrollFactor.set(0.9, 0.9);
+						bg.active = false;
+						add(bg);
+
+						var island:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('island/islandBase'));
+						island.antialiasing = true;
+						island.scrollFactor.set(0.9, 0.9);
+						island.active = false;
+						add(island);
+
+						var platform:FlxSprite = new FlxSprite(-600, -600).loadGraphic(Paths.image('island/platform'));
+						platform.antialiasing = true;
+						platform.scrollFactor.set(0.9, 0.9);
+						platform.active = false;
+						add(platform);
+	
+						var controll:FlxSprite = new FlxSprite(-600, -600).loadGraphic(Paths.image('island/platformControll'));
+						controll.antialiasing = true;
+						controll.scrollFactor.set(0.9, 0.9);
+						controll.active = false;
+						add(controll);
+					}
+				case 'islandEvil':
+					{
+						curStage = 'islandEvil';
+
+						// defaultCamZoom = 1.0;
+
+						var bg:FlxSprite = new FlxSprite(-600, -800).loadGraphic(Paths.image('island/Sky'));
+						bg.antialiasing = true;
+						bg.scrollFactor.set(0.9, 0.9);
+						bg.active = false;
+						add(bg);
+
+						var island:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('island/islandBase'));
+						island.antialiasing = true;
+						island.scrollFactor.set(0.9, 0.9);
+						island.active = false;
+						add(island);
+
+						var platform:FlxSprite = new FlxSprite(-600, -600).loadGraphic(Paths.image('island/platform'));
+						platform.antialiasing = true;
+						platform.scrollFactor.set(0.9, 0.9);
+						platform.active = false;
+						add(platform);
+
+						var hole:FlxSprite = new FlxSprite(-600, -600).loadGraphic(Paths.image('island/trickyHole'));
+						hole.antialiasing = true;
+						hole.scrollFactor.set(0.9, 0.9);
+						hole.active = false;
+						add(hole);
+
+						crowdBoppers = new FlxSprite(-600, -600);
+						crowdBoppers.frames = Paths.getSparrowAtlas('island/skeletonCrowd');
+						crowdBoppers.animation.addByPrefix('bop', "skeletonCrowdBop", 24, false);
+						crowdBoppers.antialiasing = true;
+						if (FlxG.save.data.distractions)
+						{
+							add(crowdBoppers);
+						}
+
+						var controll:FlxSprite = new FlxSprite(-600, -600).loadGraphic(Paths.image('island/platformControll'));
+						controll.antialiasing = true;
+						controll.scrollFactor.set(0.9, 0.9);
+						controll.active = false;
+						add(controll);
 					}
 				default:
 					{
@@ -1010,6 +990,8 @@ class PlayState extends MusicBeatState
 		{
 			case 'grunt-dead':
 				curGf = 'grunt-dead';
+			case 'grunt-spikes':
+				curGf = 'grunt-spikes';
 			default:
 				curGf = 'grunt';
 		}
@@ -1051,6 +1033,13 @@ class PlayState extends MusicBeatState
 				dad.y += 200;
 			case 'tricky-jebus-dead':
 				dad.y += 300;
+			case 'auditor':
+				dad.y += 300;
+			case "auditor-large":
+				camPos.x += 400;
+				dad.y += 50;
+			case 'auditor-tricky':
+				dad.y += 50;
 		}
 
 		boyfriend = new Boyfriend(770, 450, SONG.player1);
@@ -1094,6 +1083,23 @@ class PlayState extends MusicBeatState
 				boyfriend.x -= 400;
 				dad.x -= 800;
 				gf.x -= 500;
+
+			case 'island':
+				boyfriend.y -=600;
+				dad.y -= 600;
+				gf.y -= 500;
+			
+			case 'island2':
+				boyfriend.y -=600;
+				dad.x -= 200;
+				dad.y -= 600;
+				gf.y -= 500;
+
+			case 'islandEvil':
+				boyfriend.y -=600;
+				dad.x -= 200;
+				dad.y -= 600;
+				gf.y -= 425;
 		}
 
 		if (!PlayStateChangeables.Optimize)
@@ -1117,12 +1123,6 @@ class PlayState extends MusicBeatState
 		trace('uh ' + PlayStateChangeables.safeFrames);
 
 		trace("SF CALC: " + Math.floor((PlayStateChangeables.safeFrames / 60) * 1000));
-
-		var doof:DialogueBox = new DialogueBox(false, dialogue);
-		// doof.x += 70;
-		// doof.y = FlxG.height * 0.5;
-		doof.scrollFactor.set();
-		doof.finishThing = startCountdown;
 
 		Conductor.songPosition = -5000;
 
@@ -1274,7 +1274,6 @@ class PlayState extends MusicBeatState
 		iconP1.cameras = [camHUD];
 		iconP2.cameras = [camHUD];
 		scoreTxt.cameras = [camHUD];
-		doof.cameras = [camHUD];
 		if (FlxG.save.data.songPosition)
 		{
 			songPosBG.cameras = [camHUD];
@@ -1325,13 +1324,9 @@ class PlayState extends MusicBeatState
 							});
 						});
 					});
-				case 'senpai':
-					schoolIntro(doof);
 				case 'roses':
 					FlxG.sound.play(Paths.sound('ANGRY'));
-					schoolIntro(doof);
-				case 'thorns':
-					schoolIntro(doof);
+					startCountdown();				
 				default:
 					startCountdown();
 			}
@@ -1355,15 +1350,13 @@ class PlayState extends MusicBeatState
 		black.scrollFactor.set();
 		add(black);
 
-		var red:FlxSprite = new FlxSprite(-100, -100).makeGraphic(FlxG.width * 2, FlxG.height * 2, 0xFFff1b31);
+		var red:FlxSprite = new FlxSprite(-100, -100).makeGraphic(FlxG.width * 2, FlxG.height * 2, 0xFFbb0000);
 		red.scrollFactor.set();
 
 		var senpaiEvil:FlxSprite = new FlxSprite();
-		senpaiEvil.frames = Paths.getSparrowAtlas('weeb/senpaiCrazy');
-		senpaiEvil.animation.addByPrefix('idle', 'Senpai Pre Explosion', 24, false);
-		senpaiEvil.setGraphicSize(Std.int(senpaiEvil.width * 6));
+		senpaiEvil.frames = Paths.getSparrowAtlas('island/Auditor_Dies_Assets');
+		senpaiEvil.animation.addByPrefix('idle', 'auditor dies', 24, false);
 		senpaiEvil.scrollFactor.set();
-		senpaiEvil.updateHitbox();
 		senpaiEvil.screenCenter();
 
 		if (StringTools.replace(PlayState.SONG.song, " ", "-").toLowerCase() == 'roses'
@@ -4539,10 +4532,16 @@ class PlayState extends MusicBeatState
 
 		switch (curStage)
 		{
-			case 'school':
+			case 'islandEvil':
 				if (FlxG.save.data.distractions)
 				{
-					bgGirls.dance();
+					crowdBoppers.animation.play('bop', true);
+				}
+
+			case 'island':
+				if (FlxG.save.data.distractions)
+				{
+					crowdBoppers.animation.play('bop', true);
 				}
 
 			case 'bakeryEvil':

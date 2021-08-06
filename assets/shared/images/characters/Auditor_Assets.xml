@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Auditor_Assets.png">
+	<!-- Created with Adobe Animate version 19.2.0.405 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Auditor DOWN NOTE0000" x="10" y="10" width="445" height="596" frameX="-32" frameY="-17" frameWidth="477" frameHeight="613"/>
+	<SubTexture name="Auditor DOWN NOTE0001" x="465" y="10" width="451" height="596" frameX="-26" frameY="-17" frameWidth="477" frameHeight="613"/>
+	<SubTexture name="Auditor DOWN NOTE0002" x="926" y="10" width="432" height="613" frameX="-32" frameY="0" frameWidth="477" frameHeight="613"/>
+	<SubTexture name="Auditor DOWN NOTE0003" x="1368" y="10" width="463" height="613" frameX="-1" frameY="0" frameWidth="477" frameHeight="613"/>
+	<SubTexture name="Auditor DOWN NOTE0004" x="1841" y="10" width="459" height="613" frameX="-5" frameY="0" frameWidth="477" frameHeight="613"/>
+	<SubTexture name="Auditor DOWN NOTE0005" x="2310" y="10" width="464" height="613" frameX="0" frameY="0" frameWidth="477" frameHeight="613"/>
+	<SubTexture name="Auditor DOWN NOTE0006" x="2784" y="10" width="434" height="613" frameX="-30" frameY="0" frameWidth="477" frameHeight="613"/>
+	<SubTexture name="Auditor DOWN NOTE0007" x="3228" y="10" width="430" height="613" frameX="-34" frameY="0" frameWidth="477" frameHeight="613"/>
+	<SubTexture name="Auditor DOWN NOTE0008" x="3668" y="10" width="430" height="613" frameX="-34" frameY="0" frameWidth="477" frameHeight="613"/>
+	<SubTexture name="Auditor DOWN NOTE0009" x="4108" y="10" width="436" height="613" frameX="-28" frameY="0" frameWidth="477" frameHeight="613"/>
+	<SubTexture name="Auditor DOWN NOTE0010" x="926" y="10" width="432" height="613" frameX="-32" frameY="0" frameWidth="477" frameHeight="613"/>
+	<SubTexture name="Auditor DOWN NOTE0011" x="1368" y="10" width="463" height="613" frameX="-1" frameY="0" frameWidth="477" frameHeight="613"/>
+	<SubTexture name="Auditor DOWN NOTE0012" x="1841" y="10" width="459" height="613" frameX="-5" frameY="0" frameWidth="477" frameHeight="613"/>
+	<SubTexture name="Auditor DOWN NOTE0013" x="2310" y="10" width="464" height="613" frameX="0" frameY="0" frameWidth="477" frameHeight="613"/>
+	<SubTexture name="Auditor DOWN NOTE0014" x="2784" y="10" width="434" height="613" frameX="-30" frameY="0" frameWidth="477" frameHeight="613"/>
+	<SubTexture name="Auditor Idle Dance0000" x="4554" y="10" width="664" height="504" frameX="-28" frameY="-87" frameWidth="692" frameHeight="591"/>
+	<SubTexture name="Auditor Idle Dance0001" x="5228" y="10" width="666" height="508" frameX="-26" frameY="-83" frameWidth="692" frameHeight="591"/>
+	<SubTexture name="Auditor Idle Dance0002" x="5904" y="10" width="646" height="519" frameX="-33" frameY="-72" frameWidth="692" frameHeight="591"/>
+	<SubTexture name="Auditor Idle Dance0003" x="6560" y="10" width="678" height="527" frameX="-1" frameY="-64" frameWidth="692" frameHeight="591"/>
+	<SubTexture name="Auditor Idle Dance0004" x="7248" y="10" width="667" height="545" frameX="-5" frameY="-46" frameWidth="692" frameHeight="591"/>
+	<SubTexture name="Auditor Idle Dance0005" x="10" y="633" width="672" height="561" frameX="0" frameY="-30" frameWidth="692" frameHeight="591"/>
+	<SubTexture name="Auditor Idle Dance0006" x="692" y="633" width="633" height="547" frameX="-30" frameY="-44" frameWidth="692" frameHeight="591"/>
+	<SubTexture name="Auditor Idle Dance0007" x="1335" y="633" width="629" height="544" frameX="-34" frameY="-47" frameWidth="692" frameHeight="591"/>
+	<SubTexture name="Auditor Idle Dance0008" x="1974" y="633" width="622" height="553" frameX="-36" frameY="-38" frameWidth="692" frameHeight="591"/>
+	<SubTexture name="Auditor Idle Dance0009" x="2606" y="633" width="627" height="559" frameX="-31" frameY="-32" frameWidth="692" frameHeight="591"/>
+	<SubTexture name="Auditor Idle Dance0010" x="3243" y="633" width="623" height="555" frameX="-35" frameY="-36" frameWidth="692" frameHeight="591"/>
+	<SubTexture name="Auditor Idle Dance0011" x="3876" y="633" width="654" height="568" frameX="-4" frameY="-23" frameWidth="692" frameHeight="591"/>
+	<SubTexture name="Auditor Idle Dance0012" x="4540" y="633" width="650" height="576" frameX="-8" frameY="-15" frameWidth="692" frameHeight="591"/>
+	<SubTexture name="Auditor Idle Dance0013" x="5200" y="633" width="655" height="591" frameX="-3" frameY="0" frameWidth="692" frameHeight="591"/>
+	<SubTexture name="Auditor LEFT NOTE0000" x="5865" y="633" width="614" height="555" frameX="0" frameY="-36" frameWidth="684" frameHeight="591"/>
+	<SubTexture name="Auditor LEFT NOTE0001" x="6489" y="633" width="614" height="559" frameX="0" frameY="-32" frameWidth="684" frameHeight="591"/>
+	<SubTexture name="Auditor LEFT NOTE0002" x="7113" y="633" width="642" height="555" frameX="-42" frameY="-36" frameWidth="684" frameHeight="591"/>
+	<SubTexture name="Auditor LEFT NOTE0003" x="10" y="1234" width="652" height="568" frameX="-32" frameY="-23" frameWidth="684" frameHeight="591"/>
+	<SubTexture name="Auditor LEFT NOTE0004" x="672" y="1234" width="648" height="576" frameX="-36" frameY="-15" frameWidth="684" frameHeight="591"/>
+	<SubTexture name="Auditor LEFT NOTE0005" x="1330" y="1234" width="654" height="591" frameX="-30" frameY="0" frameWidth="684" frameHeight="591"/>
+	<SubTexture name="Auditor LEFT NOTE0006" x="1994" y="1234" width="642" height="557" frameX="-42" frameY="-34" frameWidth="684" frameHeight="591"/>
+	<SubTexture name="Auditor LEFT NOTE0007" x="2646" y="1234" width="642" height="554" frameX="-42" frameY="-37" frameWidth="684" frameHeight="591"/>
+	<SubTexture name="Auditor LEFT NOTE0008" x="3298" y="1234" width="642" height="554" frameX="-42" frameY="-37" frameWidth="684" frameHeight="591"/>
+	<SubTexture name="Auditor LEFT NOTE0009" x="3950" y="1234" width="642" height="559" frameX="-42" frameY="-32" frameWidth="684" frameHeight="591"/>
+	<SubTexture name="Auditor LEFT NOTE0010" x="7113" y="633" width="642" height="555" frameX="-42" frameY="-36" frameWidth="684" frameHeight="591"/>
+	<SubTexture name="Auditor LEFT NOTE0011" x="10" y="1234" width="652" height="568" frameX="-32" frameY="-23" frameWidth="684" frameHeight="591"/>
+	<SubTexture name="Auditor LEFT NOTE0012" x="672" y="1234" width="648" height="576" frameX="-36" frameY="-15" frameWidth="684" frameHeight="591"/>
+	<SubTexture name="Auditor LEFT NOTE0013" x="1330" y="1234" width="654" height="591" frameX="-30" frameY="0" frameWidth="684" frameHeight="591"/>
+	<SubTexture name="Auditor LEFT NOTE0014" x="1994" y="1234" width="642" height="557" frameX="-42" frameY="-34" frameWidth="684" frameHeight="591"/>
+	<SubTexture name="Auditor RIGHT NOTE0000" x="4602" y="1234" width="760" height="555" frameX="-50" frameY="-36" frameWidth="814" frameHeight="591"/>
+	<SubTexture name="Auditor RIGHT NOTE0001" x="5372" y="1234" width="782" height="568" frameX="-28" frameY="-23" frameWidth="814" frameHeight="591"/>
+	<SubTexture name="Auditor RIGHT NOTE0002" x="6164" y="1234" width="782" height="555" frameX="-32" frameY="-36" frameWidth="814" frameHeight="591"/>
+	<SubTexture name="Auditor RIGHT NOTE0003" x="6956" y="1234" width="813" height="568" frameX="-1" frameY="-23" frameWidth="814" frameHeight="591"/>
+	<SubTexture name="Auditor RIGHT NOTE0004" x="10" y="1835" width="809" height="576" frameX="-5" frameY="-15" frameWidth="814" frameHeight="591"/>
+	<SubTexture name="Auditor RIGHT NOTE0005" x="829" y="1835" width="814" height="591"/>
+	<SubTexture name="Auditor RIGHT NOTE0006" x="1653" y="1835" width="783" height="557" frameX="-31" frameY="-34" frameWidth="814" frameHeight="591"/>
+	<SubTexture name="Auditor RIGHT NOTE0007" x="2446" y="1835" width="779" height="555" frameX="-35" frameY="-36" frameWidth="814" frameHeight="591"/>
+	<SubTexture name="Auditor RIGHT NOTE0008" x="3235" y="1835" width="779" height="555" frameX="-35" frameY="-36" frameWidth="814" frameHeight="591"/>
+	<SubTexture name="Auditor RIGHT NOTE0009" x="4024" y="1835" width="785" height="559" frameX="-29" frameY="-32" frameWidth="814" frameHeight="591"/>
+	<SubTexture name="Auditor RIGHT NOTE0010" x="6164" y="1234" width="782" height="555" frameX="-32" frameY="-36" frameWidth="814" frameHeight="591"/>
+	<SubTexture name="Auditor RIGHT NOTE0011" x="6956" y="1234" width="813" height="568" frameX="-1" frameY="-23" frameWidth="814" frameHeight="591"/>
+	<SubTexture name="Auditor RIGHT NOTE0012" x="10" y="1835" width="809" height="576" frameX="-5" frameY="-15" frameWidth="814" frameHeight="591"/>
+	<SubTexture name="Auditor RIGHT NOTE0013" x="829" y="1835" width="814" height="591"/>
+	<SubTexture name="Auditor RIGHT NOTE0014" x="1653" y="1835" width="783" height="557" frameX="-31" frameY="-34" frameWidth="814" frameHeight="591"/>
+	<SubTexture name="Auditor UP NOTE0000" x="4819" y="1835" width="601" height="576" frameX="-37" frameY="-20" frameWidth="677" frameHeight="596"/>
+	<SubTexture name="Auditor UP NOTE0001" x="5430" y="1835" width="606" height="576" frameX="-32" frameY="-20" frameWidth="677" frameHeight="596"/>
+	<SubTexture name="Auditor UP NOTE0002" x="6046" y="1835" width="646" height="569" frameX="-31" frameY="-27" frameWidth="677" frameHeight="596"/>
+	<SubTexture name="Auditor UP NOTE0003" x="6702" y="1835" width="677" height="573" frameX="0" frameY="-23" frameWidth="677" frameHeight="596"/>
+	<SubTexture name="Auditor UP NOTE0004" x="7389" y="1835" width="673" height="582" frameX="-4" frameY="-14" frameWidth="677" frameHeight="596"/>
+	<SubTexture name="Auditor UP NOTE0005" x="10" y="2436" width="677" height="596"/>
+	<SubTexture name="Auditor UP NOTE0006" x="697" y="2436" width="649" height="569" frameX="-28" frameY="-27" frameWidth="677" frameHeight="596"/>
+	<SubTexture name="Auditor UP NOTE0007" x="1356" y="2436" width="645" height="569" frameX="-32" frameY="-27" frameWidth="677" frameHeight="596"/>
+	<SubTexture name="Auditor UP NOTE0008" x="2011" y="2436" width="645" height="569" frameX="-32" frameY="-27" frameWidth="677" frameHeight="596"/>
+	<SubTexture name="Auditor UP NOTE0009" x="2666" y="2436" width="650" height="569" frameX="-27" frameY="-27" frameWidth="677" frameHeight="596"/>
+	<SubTexture name="Auditor UP NOTE0010" x="6046" y="1835" width="646" height="569" frameX="-31" frameY="-27" frameWidth="677" frameHeight="596"/>
+	<SubTexture name="Auditor UP NOTE0011" x="6702" y="1835" width="677" height="573" frameX="0" frameY="-23" frameWidth="677" frameHeight="596"/>
+	<SubTexture name="Auditor UP NOTE0012" x="7389" y="1835" width="673" height="582" frameX="-4" frameY="-14" frameWidth="677" frameHeight="596"/>
+	<SubTexture name="Auditor UP NOTE0013" x="10" y="2436" width="677" height="596"/>
+	<SubTexture name="Auditor UP NOTE0014" x="697" y="2436" width="649" height="569" frameX="-28" frameY="-27" frameWidth="677" frameHeight="596"/>
+</TextureAtlas>
