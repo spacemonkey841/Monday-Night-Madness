@@ -128,7 +128,7 @@ class TitleState extends MusicBeatState
 		add(bg);
 
 		
-		logoBl = new FlxSprite(-35, 0);
+		logoBl = new FlxSprite(-35, 1000);
 		logoBl.frames = Paths.getSparrowAtlas('logoBumpin');
 		if(FlxG.save.data.antialiasing)
 			{
